@@ -1,0 +1,61 @@
+.instructionButtons{
+  background:url('../images/button long.png');
+  color: navy;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  background-size: 100% 100%;
+  background-color: transparent;
+  padding: 13px;
+  padding-bottom: 16%;
+  font-size: large;
+  text-align: center;
+  font-family: 'Open Sans', Arial, sans-serif;     font-weight: bold;     font-size: 1.3vmax;
+}
+  
+.startButtons{
+  background:url('../images/button long.png');
+  color: red;
+  cursor: pointer;
+  border: none;
+  background-size: 100% 100%;
+  background-color: transparent;
+  font-size: large;
+  padding: 13px;
+  padding-bottom: 17%;
+  font-family: 'Open Sans', Arial, sans-serif;     font-weight: bold;     font-size: 1.3vmax;
+}
+
+.redStrip{
+   /*margin: 2%;*/
+   width: 100%;
+   padding: -3.6% 1%;
+   background: url(../images/red_strip.png);
+   height: 9vh;
+   top: 32%;
+   vertical-align: -webkit-baseline-middle;
+   position: relative;
+   text-align: center;
+   margin-top: 3vh;
+   font-family: 'Open Sans', Arial, sans-serif;     font-weight: bold;     font-size: 1.3vmax;
+  
+}
+
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+   
+    font-family: 'Open Sans', Arial, sans-serif;     font-weight: bold;     font-size: 4vmax;
+}
+
+  
+  
+}
+
+

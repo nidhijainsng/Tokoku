@@ -1,0 +1,57 @@
+#mySlider{
+
+    -webkit-appearance: none;
+    position: absolute;
+    top: 40%;
+    left: -30%;
+    overflow: hidden;
+    height: 10%;
+    border: 2px solid black;
+    -webkit-transform: rotate(-90deg);
+    width: 160%;
+    cursor: pointer;
+     /* iOS */
+}
+
+::-webkit-slider-runnable-track {
+    background: #ddd;
+}
+
+/*
+ * 1. Set to 0 width and remove border for a slider without a thumb
+ */
+::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 10px; /* 1 */
+    height: 50px;
+    background: #000;
+    box-shadow: -100vw 0 0 100vw orangered;
+    border: 1px solid #000; /* 1 */
+}
+
+::-moz-range-track {
+    height: 50px;
+    background: #ddd;
+}
+
+::-moz-range-thumb {
+    background: #fff;
+    height: 50px;
+    width: 20px;
+    border: 2px solid #999;
+    border-radius: 0 !important;
+    box-shadow: 0 0 0 0 orangered;
+    box-sizing: border-box;
+}
+
+::-ms-fill-lower { 
+    background: orangered;
+}
+
+::-ms-thumb { 
+    background: #fff;
+    border: 2px solid #999;
+    height: 40px;
+    width: 20px;
+    box-sizing: border-box;
+}

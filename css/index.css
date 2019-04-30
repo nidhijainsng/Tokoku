@@ -1,0 +1,607 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    color: #fff;
+    /* background: linear-gradient(-225deg,rgb(232,199,103), rgb(166,190,101), rgb(85,177,180),rgb(111,182,223)); */
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center;
+}
+.borderB1{
+    border:1px solid black;
+}
+.fontSize2{
+}
+
+.screenTitle{
+    position:absolute;
+    top:3%;
+    left:5%;
+    padding:10px;
+    font-weight:600;
+}
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    20%{
+        background-position: 40% 50%
+    }
+    40%{
+        background-position: 70% 50%
+    }
+    60% {
+        background-position: 100% 50%
+    }
+    80%{
+        background-position: 50% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+.centerScoreBoardButton{
+    width:31%;
+    position:absolute;
+    font-weight:400;
+    right:4%;
+    background-color:black;
+    border:0;
+    color:#ffe62d;
+    border-radius:10px;
+    padding:2%;
+  }
+
+
+
+  /*payOff*/
+
+  .payOffContainer{
+    width:50%;
+    min-height:40vh;
+    background-image: url(../images/redBorderAlt.png);
+    background-size: 100% 100%;
+    right:30%;
+    padding: 2% 3%;
+    margin: auto;
+    margin-top: 10%;
+    max-height: 80vmax;
+    overflow: auto;
+  }
+.imageContainer{
+    position:absolute;
+    top:10%;
+    right:8%;
+    width:4%;
+    height:8%;
+}
+.payOffImageToken{
+    width:100%;
+    height:100%;
+}
+.payOffTitle{
+    width:100%;
+    font-weight:bold;
+    padding:1%;
+}
+.payOffSubTitleLeft{
+    font-weight:600;
+}
+#advantageCardTitle{
+    left: 82%;
+    font-weight: bold;
+    position: absolute;
+    top: 35.5%;
+}
+
+.payOffSubTitleRight{
+    font-weight:600;
+    float: right;
+}
+.payOffLeftSubTitleValue{
+}
+
+.payOffDebtAmountValue{
+    font-weight: bold;
+}
+.payOffAmountToPayValue{
+}
+.payOffLeftModeOfPaymentValue{
+}
+.payOffButtonContainer{
+width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.payOffButton{
+    width: 100%;
+    background-image:url("../images/buttonMedium.png");
+    background-color: transparent;
+    background-size: 100% 100%;
+    border:0;
+    color:black;
+    font-weight:bold;
+    padding:2%;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+
+/*purchase*/
+
+
+.purchaseInventoryLabel{
+    position:absolute;
+    bottom:3%;left:14.5%;
+    font-weight:600;
+}
+
+#percent{
+   
+}
+#result{
+    color:red;
+    text-align: center;
+    margin-top: 2%;
+}
+.purchaseScreenButton {
+    background-image: url(../images/buttonMedium.png);
+    background-size: 100% 100%;
+    width: 28%;
+    text-align: center;
+    line-height: 185%;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    color: green;
+    margin: auto;
+    margin-top: 8%;
+}
+
+.enterAmountText{
+    width:15%;
+    border:1px solid black;
+}
+.iconContainer{
+    width:3.5%;height: 6.5%;
+    top:3%;
+    left:1%;
+    position: absolute;
+}
+
+.icon{
+    height:115%;
+    width:100%;
+}
+.purchaseScreenButton:active {
+    box-shadow: 1px 2px orangered;
+    transform: translateY(2px) translateX(2px);;
+}
+.purchaseScreenButton:active {
+    box-shadow: 1px 2px orangered;
+    transform: translateY(2px) translateX(2px);;
+}
+
+.purchaseScreenTitle{
+
+    background-color:#ff6600;
+}
+.purchaseLeftContainer{
+    width:50%;
+    height:100%;
+    float:left;
+    border-right:2px solid black;
+    background-color:white;
+}
+.purchaseRightContainer{
+    width:50%;
+    height:100%;
+    float:right;
+    background-color: #ffcc00;
+}
+.purchaseTopRightScoreBoard{
+    float:right;
+    padding:1vw;
+    background-color:orangered;
+    font-weight:600;
+}
+#newInventoryLevelText{
+    width: 78%;
+}
+#newCostText{
+    width: 90px;
+}
+.purchaseInputForm{
+    width:100%;
+    height:50%;
+    align-items: center;
+}
+.purchaseDivBottomThreeButton{
+    width:100%;
+    height:10%;
+}
+.bottomButton{
+    float:right;
+    margin:0.5%;
+}
+
+
+/* luck template*/
+#scenario{
+    font-weight:bold;
+    left:25%;
+    right:25%;
+    top:30%;
+    padding:1%;
+}
+
+#scenarioOutline{
+    font-weight:600;
+    position:absolute;
+    left:25%;
+    right:25%;
+    top:25%;
+    padding:1%;
+    background-color:white;
+    border:1px solid black;
+    border-image: url(../images/redBorderAlt.png) 5% round;
+    border-width: 20px;
+}
+
+#luckPlayerNameTitle{
+    position:absolute;
+    top:3%;
+    right:5%;
+    padding:1px;
+    font-weight:600;
+    background-color: #1dd3dc
+}
+
+.luckHelpButton{
+    padding:5px;
+    float:right;
+    border:0;
+    border-radius:20px;
+}
+
+.luckYouCanPayContainer{
+    font-weight:600;
+    left:25%;
+    right:25%;
+    margin-top:20%;
+    padding:1%;
+}
+.luckPayButton{
+    padding:5px;
+    border:0;
+    color:#123503;
+    background-image:url('../images/buttonsmall.png');
+    background-size: 100% 100%;
+    background-color:transparent;
+    background-repeat: no-repeat;
+    width: 45%;
+    font-weight: bold;
+    
+}
+.paymentPayButton{
+    padding:5px;
+    border:0;
+    color:#123503;
+    background-image:url('../images/buttonsmall.png');
+    background-size: 100% 100%;
+    background-color:transparent;
+    background-repeat: no-repeat;
+    width: 45%;
+    
+}
+.alternateMessageContainer{
+    font-weight:600;
+    width:45%;
+    position:absolute;
+    left:24%;
+    top:55%;
+    padding:1%;
+}
+.takeQuizButton{
+    padding:5px;
+    border:0;
+    color:#0e0e54;
+    background-image:url('../images/buttonMedium.png');
+    background-size: 100% 100%;
+    background-color:transparent;
+    font-weight: bold;
+}
+
+.wildCardButton{
+    padding:5px;
+    border:0;
+    color:#560a56;
+    background-image:url('../images/buttonMedium.png');
+    background-size: 100% 100%;
+    background-color:transparent;
+}
+
+.luckScreenTitle{
+    position:absolute;
+    top: 4%;
+    left: 8%;
+    padding:10px;
+    font-weight:600;
+    font-size:2.5vmax;
+    background-image: url(../images/luck_strip.png);
+    background-size: 100% 100%;
+    width: 15%;
+}
+
+.paymentScreenTitle{
+    position:absolute;
+    top: 4%;
+    left: 8%;
+    padding:10px;
+    font-weight:600;
+    font-size:2.5vmax;
+    background-image: url(../images/payment_strip.png);
+    background-size: 100% 100%;
+    width: 15%;
+}
+.luckIconContainer{
+    width: 7%;
+    height: 13%;
+    top: 2.5%;
+    left:1%;
+    position: absolute;
+}
+
+#luckHeaderBorderImage{
+    font-weight:600;
+    left:25%;
+    right:25%;
+    top:30%;
+    padding:1%;
+}
+
+.luckHelpIcon{
+    display:inline-block;
+    bottom: 4%;
+    right:2%;
+    position:absolute;
+    width:9%;
+    height:auto;
+}
+
+.luckGameIcon{
+    display:inline-block;
+    bottom:4%;
+    left:2%;
+    position:absolute;
+    width:15%;
+    height:auto;
+}
+
+/*centerBoard*/
+.centerScoreBoardContainer{
+    width:29%;
+    top:33.5%;
+    left:38%;
+    border:1px solid black;
+    background-color:#ffcc00;
+    height:20%;
+    position:absolute;
+}
+.centerScoreBoardContainerDiv1
+{
+    width:100%;
+    height:30%;
+    margin-top:3.5%;
+    font-weight:600;
+    margin-left:5%;
+}
+.centerScoreBoardContainerDiv2
+{
+    width:100%;
+    height:30%;
+    font-weight:600;
+    margin-left:5%;
+}
+.centerScoreBoardContainerDiv3
+{
+    width:100%;
+    height:30%;
+    font-weight:600;
+    margin-left:5%;
+}
+.centerScoreBoardMainContainer{
+    width: 80vw;height: 44.5vw;position: absolute;top: 10px;left: 10px;
+}
+
+button:focus {outline:0;}
+
+/*advantage Card*/
+#advantageCardScenario{
+    font-weight:600;
+    position:absolute;
+    left:35%;
+    top:30%;
+    line-height: 1.6;
+    padding:1%;
+}
+#checkButton{
+    padding:1%;
+    border-radius:20px;
+    border: 0;
+}
+
+.advantageCardButton{
+    background-color: green;
+    border: 0;
+    padding:5px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor :pointer;
+
+}
+.advantageCardButtonContainer{
+    position:  absolute;
+    left: 45%;
+    top: 57%;
+}
+
+/* Purchase template */
+.rowPurchase {
+	display: flex;
+	align-items: left;
+	flex-direction: row;
+	width: 100%;
+}
+.columnPurchase {
+	flex: 33.33%;
+	padding: 0px;
+	height: 100vh;
+	position: relative;
+}
+
+.purchaseIcon {
+    margin-top: 3%;
+    background-image:url(../images/buy.png);
+    background-size: 100% 100%;
+    width: 8vw;
+    height: 7vw;
+    margin-left: 5%;
+}
+.purchaseTitle {
+	color: white;
+	font-size: 2.5vmax;
+	font-weight: 600;
+    background-image:url(../images/buy_strip.png);
+    background-size: 100% 100%;
+    width: 60%;
+    margin-top: 12%;
+    height: 65%;
+    padding-top: 4%;
+    padding-left: 3%;
+}
+.purchasePlayerTitle {
+	background-color: #00bbff;
+	text-align: left;
+	margin-top: 4%;
+}
+.headerImage {
+    width: 97%;
+    height: 15%;
+    margin-top: 10%;
+    margin-bottom: 2``%;
+    margin-left: 1%;
+}
+.logoImage {
+    max-width: 80%;
+    margin-left: 1%;
+    background-image:url(../images/logo_english.png);
+    background-size: 100% 100%;
+    width: 15vw;
+    height: 7vw;
+}
+.purchaseLContainer {
+    font-weight: 600;
+    padding: 1%;
+    width:85%;
+    height:45%;
+    background-color: white;
+    background-image: url(../images/redbgmainboard.png);
+    background-size: 100% 100%;
+    padding: 2% 3%;
+    margin: auto;
+    margin-top: 15%;
+    max-height: 70%;
+    overflow: hidden;
+}
+.purchaseMContainer {
+    font-weight: 600;
+    padding: 1%;
+    width:80%;
+    height:70%;
+    background-color: white;
+    background-image: url(../images/redbgmainboard.png);
+    background-size: 100% 100%;
+    padding: 2% 3%;
+    margin: auto;
+    margin-top: 20%;
+    max-height: 100%;
+}
+.purchaseRContainer {
+    font-weight: 600;
+    padding: 1%;
+    width:85%;
+    height:45%;
+    background-color: white;
+    background-image: url(../images/redbgmainboard.png);
+    background-size: 100% 100%;
+    padding: 2% 3%;
+    margin: auto;
+    margin-top: 30%;
+    max-height: 70%;
+    overflow: auto;
+}
+.helpBtn {
+    background-image: url(../images/help-button.png);
+    background-size: 100% 100%;
+    width: 30%;
+    text-align: center;
+    line-height: 185%;
+    font-weight: bold;
+    cursor: pointer;
+    margin: auto;
+    color: green;
+}
+.confirmButton{
+    background-image: url(../images/buttonMedium.png);
+    background-size: 100% 100%;
+    width: 40%;
+    height: 48%;
+    text-align: center;
+    line-height: 185%;
+    font-weight: bold;
+    cursor: pointer;
+    margin: auto;
+    color: green;
+    padding-top: 1%;
+}
+.mainButtons {
+    width: 25%;
+    height: 17%;
+    margin-top: 25%;
+    padding-top: 1%;
+}
+.mainPurchaseDiv {
+    background-image: url(../images/background.png);
+    overflow:hidden;
+    padding-left: 0px;
+    color:black;
+}
+
+#target_cancel{
+    color: red;*/
+}
+
+.gupt_image{
+    max-width: 80%;
+    margin-left: 1%;
+    background-image: url(../images/guptaji/guptaji_front.png);
+    background-size: 100% 100%;
+    width: 15vw;
+    height: 7vw;
+}
+
+.disable-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently supported by any browser but < IE9 */
+}

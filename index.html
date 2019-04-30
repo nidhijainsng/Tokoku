@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/lib/jquery-3.3.1.min.js"></script>
+    <script src="js/lib/template7.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <!-- <script src="js/lib/Winwheel.js"></script>
+    <script src="js/lib/TweenMax.min.js"></script>
+    <script src="js/wheelOfFortune.js"></script> -->
+    <script src="js/templates/dice_template/rollingDice.js"></script>
+    <script src="js/audioMain.js"></script>
+    <script src="js/layers/scenario_layer/main.js"></script>
+    <script src="js/templates/transfertobank_template/transferToBankConfig.js"></script>
+    <script src="js/templates/payoff_template/payOffConfig.js"></script>
+    <script src="js/templates/popup_template/popupConfig.js"></script>
+    <script src="js/templates/week_summary_template/weekSummaryConfig.js"></script>
+    <script src="js/templates/purchase_template/purchaseConfig.js"></script>
+    <script src="js/layers/help_layer/helpConfig.js"></script>
+    <script src="js/templates/quiz_template/quizConfig.js"></script>
+    <script src="js/templates/quiz_template/quizStarterConfig.js"></script>
+    <script src="js/templates/payment_template/paymentConfig.js"></script>
+    <script src="js/templates/withdrawfrombank_template/withdrawFromBankConfig.js"></script>
+    <script src="js/layers/board_layer/sideScoreBoardConfig.js"></script>
+    <script src="js/templates/luck_template/luckConfig.js"></script>
+    <script src="js/templates/sales_template/salesConfig.js"></script>
+    <script src="js/templates/decision_template/decisionConfig.js"></script>
+    <script src="js/templates/advantagecard_template/advantageCardConfig.js"></script>
+    <script src="js/templates/add_player_template/addPlayerConfig.js"></script>
+    <script src="js/layers/board_layer/mainMonopoly.js"></script>
+    <script src="js/layers/scenario_layer/templates.js"></script>
+    <script src="js/layers/board_layer/templateMonopoly.js"></script>
+    <script src="js/layers/scenario_layer/config.js"></script>
+    <script src="js/templates/static_template/staticMain.js"></script>
+    <script src="js/templates/sales_template/salesMain.js"></script>
+    <script src="js/templates/luck_template/luckMain.js"></script>
+    <script src="js/templates/purchase_template/purchaseMain.js"></script>
+    <script src="js/templates/payment_template/paymentMain.js"></script>
+    <script src="js/templates/dice_template/rollingdiceMain.js"></script>
+    <script src="js/templates/week_summary_template/weekSummaryMain.js"></script>
+    <script src="js/templates/payoff_template/payOffMain.js"></script>
+    <script src="js/layers/help_layer/helpMain.js"></script>
+    <script src="js/templates/quiz_template/quizMain.js"></script>
+    <script src="js/templates/quiz_template/quizStarterMain.js"></script>
+    <script src="js/templates/popup_template/popupMain.js"></script>
+    <script src="js/templates/insurance_template/insuranceMain.js"></script>
+    <script src="js/templates/decision_template/decisionMain.js"></script>
+    <script src="js/templates/advantagecard_template/advantageCardMain.js"></script>
+    <script src="js/templates/withdrawfrombank_template/withdrawFromBankMain.js"></script>
+    <script src="js/templates/transfertobank_template/transferToBankMain.js"></script>
+    <script src="js/templates/add_player_template/addPlayer.js"></script>
+
+    <script src="js/layers/board_layer/configMonopoly.js"></script>
+    <!--<script src="js/scratchCardLib.js"></script>
+    <script src="js/scratchCard.js"></script>   -->
+    <script src="js/models/user.js"></script>
+    <script src="js/models/scenario.js"></script>
+    <script src="js/calculator.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="css/rollingDice.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/scratch.css">
+    <link rel="stylesheet" href="css/board.css">
+    <link rel="stylesheet" href="css/insurance.css">
+    <link rel="stylesheet" href="css/decisionMaking.css">
+    <link rel="stylesheet" href="css/slideBar.css">
+    <link rel="stylesheet" href="css/sideTabs.css">
+    <link rel="stylesheet" href="css/receipt.css">
+    <link rel="stylesheet" href="css/calculator.css">
+    <link rel="stylesheet" href="css/welcome.css">
+    <link rel="stylesheet" href="css/longButton.css">
+    <link rel="stylesheet" type="text/css" href="css/quiz.css">
+
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css"/> -->
+</head>
+
+<body background="images/background.png" class="disable-select" style="font-family: 'Open Sans', Arial, sans-serif;     font-weight: bold;     font-size: 1.3vmax;color:black;">
+
+<audio id="backgroundaudio" style="display:none" src="audio/audioBackground.mp3" loop="true" autoplay="true" controls>
+</audio>
+
+<div id="popupBackground" style="display:none;position:absolute;top:0px;left:0px;z-index: 996;opacity: 0.95;background-color: rgb(105,105,105);;height: 100%;width: 100%;"></div>
+
+<div id="resultBackground" style="display:none;position:absolute;top:0px;left:0px;z-index: 9;opacity: 0.95;background-color: rgb(105,105,105);;height: 100%;width: 100%;"></div>
+
+<div id="helpBase" class="container-fluid"
+     style="position:relative;z-index:1000;margin:0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+    <div id="helpContent"
+         style="height:0; transition: height 0.5s;position: absolute;margin:0px;background-color:	rgb(105,105,105); opacity: 0.0;">
+
+    </div>
+</div>
+
+<div id="templateBase" class="container-fluid"
+     style="position:relative;z-index:0;margin:0px; margin-left: 0px; margin-right: 0px; padding: 0px;  ">
+    <div id="templateContent"
+         style="height:0; transition: height 0.5s;position: absolute;margin:0px;background-color:	rgb(105,105,105); opacity: 0.0;">
+
+
+    </div>
+
+</div>
+
+<div id="monopolyBase" class="container-fluid" style="height: 100vh;width: 100vw;">
+
+</div>
+
+<img style="display:none" src="images/redbgcommon.png"></img>
+</body>
+
+<html>

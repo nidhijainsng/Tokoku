@@ -1,0 +1,29 @@
+<div style="{{style}} {{#if showBorder}}background-image: url(images/redbgcommon.png);{{/if}}" >
+    <div style="background-color: {{backgroundColor}};position: relative; min-height:10vh; max-height: 70vh;overflow: auto;   ">
+
+        <div>
+
+            <div style="{{headerStyle}}" class="popupHeaderFontSize" >{{header}}</div>
+
+        </div>
+
+        <div>
+
+            <div style="{{messageStyle}}">{{message}}</div>
+            {{#if showImage}}
+            <div style="text-align: center; height: 23vh;"> <img style="height: 100%;{{imageStyle}}" src="{{imageUrl}}"></img></div>
+            {{/if}}
+        </div>
+        <div style="text-align: center;margin-top: 10px;">
+            <div style="width: fit-content;margin: auto;margin-top: 2%;">
+                {{#each buttons}}
+                <div style="cursor:pointer;     float: left;     margin-right: 10px; background-image: url(images/buttonMedium.png);background-size: 100% 100%;width: fit-content; padding: 7px; padding-bottom: 15%; color: red; font-weight:700" onclick="{{action}}" >{{name}}
+                </div>
+                {{/each}}
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+#scoreBoardParent {
+    
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: width 2s;
+    -webkit-transition: width 2s;
+    transition-timing-function: linear;
+    padding-top: 20px;  
+}
+
+#scoreBoard {
+    transition: width 2s;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

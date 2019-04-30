@@ -1,0 +1,124 @@
+#decisonInsurance{
+	border: 2px solid black;
+	background-color: white;
+	height: auto;
+	width: 70%;	
+	margin: 7% 14%;
+	padding: 1%;
+	overflow: hidden;
+}
+
+#insuranceTitle{
+	width: 100%;
+}
+
+#insuranceEmoji{
+	position: absolute;
+	height: 6%;
+	width: 6%;
+	background: url('../images/decisionMaking.jpg') no-repeat;
+  	background-size:contain;
+}
+
+#insuranceHeading{
+	position: absolute;
+	margin: 0 0 0 4%;
+    padding: 0.2% 1%;
+	background-color:#4db8ff;
+	font-size: 1.5vw;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+
+#insuranceSelection{
+	width: 101%;
+}
+
+#insuranceTypesTitle{
+    font-size: 2vmax;
+	text-align: center;
+}
+
+#insuranceTypesTitle, #insuranceTypes, #insurancePayment{
+	margin-bottom: 2%; 
+}
+
+#insurancePayment{
+	margin-top: 2%;
+}
+
+.insuranceValue{
+	margin-left: 3%; 
+}
+
+#annualPremium, #sumAssured{
+	height: 10%;
+	width:20%;
+	/*text-align: right;*/
+}
+
+#modeOfPayment{
+	margin-left: 3%;
+}
+
+#modeOfPaymentTitle{
+	font-weight: bold;
+} 
+
+.insuranceButtons:active{
+  box-shadow: 1px 1px  white;
+  transform: translateY(3px);
+}
+
+.insuranceButtons{
+    background-image: url(../images/buttonMedium.png);
+    background-size: 100% 100%;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1% 2%;
+}
+
+#buy_cancel{
+    text-align: center;
+}
+
+#rightInfo{
+	font-weight: bold;
+	margin: 0 1% 0 0;
+	font-size: 1vw;
+	width: 30%;
+	padding: 0;
+	
+}
+
+#leftInfo{
+	font-weight: bold;
+	margin: 0 ;
+	font-size: 1vw;
+	float: left;
+	width: 30%;
+	padding: 0;	
+}
+
+button[class="decisionButtons"]:focus {outline:0;}
+
+div[id="rightInfo"] div, div[id="leftInfo"] div{
+	padding: 0;
+}
+
+.helpBtnInsurance {
+	position: absolute;
+    bottom: 18%;
+    right: -54%;
+    width: 30%;
+    background-image: url(../images/help-button.png);
+    background-size: 100% 100%;
+    width: 28%;
+    text-align: center;
+    line-height: 185%;
+    font-weight: bold;
+    cursor: pointer;
+}

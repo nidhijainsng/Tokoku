@@ -1,0 +1,82 @@
+/*
+            Force full width & height.
+            If this block is removed, the layout height/length will be determined by
+            the amount of content in the page. That might result in a page which has
+            a footer only a few inches from the top of the viewport, or one which
+            scrolls beyond the viewport.
+            This forces the layout to always be full screen regardless of how much,
+            or how little, content is in place. Neither is "right" or "wrong", there
+            are valid cases for each. I just want to be clear what's controlling the
+            page/viewport height.
+          */
+html, body, .viewport {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.flex-container {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+#flex-item {
+	text-align: center;
+	margin: auto;
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: red;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}

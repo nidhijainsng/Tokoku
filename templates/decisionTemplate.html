@@ -1,0 +1,21 @@
+<div class="{{width}}" style="{{style}}">
+
+
+    <div>{{question}}</div>
+    <div>
+
+        {{#each options}}
+        <input type="radio" name="{{optionName}}" value="{{optionValue}}"> {{optionValue}}<br>
+        <span style="display:none" id="{{id}}Amount"> {{amount}}</span>
+        {{/each}}
+
+    </div>
+    <div>
+        <button onclick="ubsApp.renderDecisonTemplate()">Submit</button>
+    </div>
+</div>
+
+<div id={{audioId}}></div>
+
+	 
+	 

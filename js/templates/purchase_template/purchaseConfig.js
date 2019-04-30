@@ -1,0 +1,33 @@
+ubsApp.purchaseConfig={
+    "purchaseScenario":{
+		"category":"Purchase",
+		"templates":[
+			{
+				"templateId":8,
+				"templateType":"purchase",
+				"purchase":"{{pratham_title_purchase}}",
+				"inventoryTitle":"{{inventoryTitle}}",
+				"current":"{{current}}",
+				"level":"{{level}}",
+				"bankBalanceTitle":"{{bankBalanceTitle}}",
+				"cashTitle":"{{cashTitle}}",
+				"creditTitle":"{{creditTitle}}",
+				"creditLimitTitle":"{{creditLimitTitle}}",
+				"newInventoryLevelTitle":"{{newInventoryLevelTitle}}",
+				"inventoryValueTitle":"{{inventoryValueTitle}}",
+				"costTitle":"{{costTitle}}",
+				"amountTitle":"{{amountTitle}}",
+				"payByTitle":"{{payByTitle}}",
+				"confirmTitle":"{{confirmTitle}}",
+				"addModeTitle":"{{addModeTitle}}",
+				"helpTitle":"{{helpTitle}}",
+				"doneTitle":"{{doneTitle}}",
+				"chequeTitle":"{{cheque}}",
+				"creditTitle":"{{creditTitle}}",
+				"noThanksTitle":"{{noThanksTitle}}",
+				"playerTitle":"{{playerTitle}}",
+				"purchaseHelp":"{{purchaseHelp}}"
+			}
+		]
+	},
+}

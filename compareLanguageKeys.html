@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/lib/jquery-3.3.1.min.js"></script>
+    <script src="js/templates/dice_template/rollingDice.js"></script>
+
+
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css"/> -->
+</head>
+
+<script>
+	 var ubsApp = {};
+$(document).ready(function(){
+
+	var jsElm = document.createElement("script");
+  jsElm.type = "text/javascript";
+  jsElm.src = "js/language_translations/english.js";
+  document.head.appendChild(jsElm);
+  
+  jsElm.onload=function(){
+	ubsApp.englishTransaltion = $.extend({}, ubsApp.translation);
+	var jsElmH = document.createElement("script");
+  jsElmH.type = "text/javascript";
+  jsElmH.src = "js/language_translations/hindi.js";
+  document.head.appendChild(jsElmH);
+  
+  jsElmH.onload=function(){
+	ubsApp.hindiTransation = $.extend({}, ubsApp.translation);
+	var jsElmM = document.createElement("script");
+  jsElmM.type = "text/javascript";
+  jsElmM.src = "js/language_translations/marathi.js";
+  document.head.appendChild(jsElmM);
+  
+  jsElmM.onload=function(){
+	ubsApp.marathiTranslation = $.extend({}, ubsApp.translation);
+	
+	 $.each(ubsApp.englishTransaltion, function(key,val){
+        if(!ubsApp.hindiTransation[key]) {
+			$('#results').append(key + " not in Hindi <br>"); 
+		}
+		
+		 if(!ubsApp.marathiTranslation[key]) {
+			$('#results').append(key + " not in Marathi <br>"); 
+		}
+		
+    });
+  }
+	}
+  }
+	
+});
+
+</script>
+<body background="images/background.png" style="font-family: 'Open Sans', Arial, sans-serif;     font-weight: bold;     font-size: 1.3vmax;color:black;">
+
+
+
+
+<div id="results" class="container-fluid" style="height: 100vh;width: 100vw;">
+
+</div>
+
+</body>
+
+<html>

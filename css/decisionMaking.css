@@ -1,0 +1,165 @@
+#decisonMaking{
+	background-image: url('../images/background.png');
+	background-color: white;
+	width: 100%;
+	height: 100%;	
+	/*margin: 5% 14%;*/
+	padding: 1%;
+	overflow: hidden;
+}
+
+#decisionTitle{
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+#decisionEmoji{
+	position: absolute;
+	height: 13%;
+	width: 7%;
+	background: url('../images/decision.png') no-repeat;
+  	background-size:contain;
+}
+
+#decisionHeading{
+	position: absolute;
+	margin: 0.5% 0 0 7%;
+    padding: 0.2% 1%;
+	font-size: 2.5vmax;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-weight: 600;
+	font-family: 'Open Sans', "Helvetica Rounded", Arial, sans-serif;
+	background: url('../images/decisionstrip.png');
+	background-size: 100% 100%;
+}
+
+#question_answer_decision_border{
+	height: auto;
+	overflow: hidden;
+	width: 60%;
+	padding: 1.5vw;
+	margin: 7% 21%;
+	margin-bottom: 3%; /*7% 15% 3% 13%;*/
+	background-image: url('../images/redbgcommon.png');
+	background-size: 100% 100%;
+	
+}
+
+#question_answer_decision{
+	background-color: white;
+	margin: 0% 2%;
+	padding: 2%;
+
+}
+
+#quizQuestion{
+	margin: 1%;
+}
+
+#yes_no{
+	margin-top:3%;
+	/*margin-left: 40%;*/
+}
+
+.inlineDecisionButtons{
+  margin-top: 2%;
+  width: 80%;
+  padding: .4% 1%;
+  color:black;
+  border:  3px solid white;
+  cursor: pointer;
+  border-radius: 12px;
+  display: block;
+  background:url('../images/buttonlong.png');
+  background-size: 100% 100%;
+  text-align:left;
+}
+
+.decisionButtons{
+  margin-right: 1%;
+  width: 80%;
+  padding: .4% 1%;
+  background:url('../images/buttonlong.png');
+  background-size: 100% 100%;
+  color: black;
+  border:  3px solid white;
+  cursor: pointer;
+  text-align: left;
+  
+}
+
+.decisonButtons:active{
+
+  box-shadow: 1px 1px  white;
+  transform: translateY(3px);
+}
+
+button[class="decisionButtons"]:focus {outline:0;}
+
+#rightInfo{
+	font-weight: bold;
+	margin: 0 17% 0 0;
+	font-size: 1vw;
+	width: 50%;
+	padding: 0;
+	height: 35%;
+	
+}
+
+div[id="rightInfo"] div, div[id="leftInfo"] div{
+	padding: 0;
+}
+#leftInfo{
+	font-weight: bold;
+	margin-left: 24%;
+	font-size: 1vw;
+	width: 26%;
+	padding: 0;
+	
+}
+#decisionplayerName{
+	position: absolute;
+	margin: 0 5% 0 0;
+	font-size: 1.2vw;
+	color: black;
+	right: 0%;
+	background-color: #65c0df;
+
+}
+
+#decisionBankBalance {
+	background:url('../images/buttonlong.png');
+	background-size: 100% 100%;
+	font-size: 1.4vw;
+	padding: 1%;
+}
+
+.insuranceText {
+	background:url('../images/buttonsmedium.png');
+	background-size: 110%;
+	font-size: 1.2vw;
+}
+.decisionHelpButtons {
+	float: right;
+	background-image: url('../images/help-button.png');
+	background-color: transparent;
+	background-size: 100% 100%;
+	padding: 3% 7% !important;
+	border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    text-align: center;
+    font-weight: bold
+}
+
+.decisionGameLogoImage {
+    position: absolute;
+    top: 75%;
+    left: 1%;
+    width: 15vw;
+    height: 7vw;
+    max-width: 80%;
+}
+

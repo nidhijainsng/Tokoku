@@ -1,0 +1,74 @@
+<div id="decisonInsurance">
+    <div id="insuranceTitle">
+        <span id="insuranceEmoji"></span>
+        <span id="insuranceHeading">{{Insurance}}</span>
+    </div>
+
+    <div id="insuranceSelection">
+        <div id="insuranceTypesTitle">{{insuranceType}}</div>
+        <div id="insuranceTypes">
+            <fieldset id="insuranceTypesSelection">
+                <label for="theft" class="col-md-3"><input type="checkbox" onclick="myFunction()" id="theft"
+                                                           name="insurance1">{{insurance1}}</label>
+                <label for="acc" class="col-md-3"><input type="checkbox" onclick="myFunction()" id="acc"
+                                                         name="insurance2">{{insurance2}}</label>
+                <label for="naturalCal" class="col-md-4"><input type="checkbox" onclick="myFunction()" id="naturalCal"
+                                                                name="insurance3">{{insurance3}}</label>
+            </fieldset>
+        </div>
+        <div id="insurancePayment" class="row">
+            <label for="annualPremium" class="insuranceValue">{{premium}}</label>
+            <input type="number" id="annualPremium" name="premium" value="0" readonly>
+            <label for="annualPremium" class="insuranceValue">{{sumAssured}}</label>
+            <input type="number" id="sumAssured" name="sum" value="0" readonly>
+        </div>
+        <div id="modeOfPayment">
+            <span id="modeOfPaymentTitle">{{mode}}</span>
+            <select>
+                <option value="cash"><span id="cashInsurance">{{cash}}</span></option>
+                <option value="cheque"><span id="chequeInsurance">{{cheque}}</span></option>
+            </select>
+        </div>
+        <div id="buy_cancel">
+            <span id="decisionBuy"><button class='insuranceButtons'
+                                           onclick="ubsApp.checkPageorBoard(\' {{onClickPage.nextPage}} \',\'{{amount}}\', \'{{onClickPage.hideScenarios}}\')">{{buy}}</button></span>
+            <span id="decisionCancel"><button class='insuranceButtons'
+                                              onclick="ubsApp.checkPageorBoard(\' {{onClickPage.nextPage}} \',\'{{amount}}\', \'{{onClickPage.hideScenarios}}\')">{{cancel}}</button></span>
+        </div>
+    </div>
+
+    <div class="row" id="leftInfo">
+        <div class="col-md-6">
+            {{bankBalanceTitle}} <br>
+            {{cashTitle}} <br>
+            {{debtTitle}} <br>
+        </div>
+        <div class="col-md-1">
+            : <br>
+            : <br>
+            : <br>
+        </div>
+        <div class="col-md-5">
+            <span>₹ {{balance}}</span><br>
+            <span>₹ {{cash}}</span><br>
+            <span>₹ {{debt}}</span><br>
+        </div>
+    </div>
+    <div class="row" id="rightInfo">
+        <div class="col-md-7">
+            {{inventoryTitle}} <br>
+            {{invVal}} <br>
+            {{repPoints}} <br>
+        </div>
+        <div class="col-md-1">
+            : <br>
+            : <br>
+            : <br>
+        </div>
+        <div class="col-md-4">
+            <span id="decisionMakingInv">{{inventory}}%</span><br>
+            <span id="decisionMakingInvValue">{{inventoryValue}}</span><br>
+            <span id="decisionMakingReputation">{{reputationPts}}</span><br>
+        </div>
+    </div>
+</div>

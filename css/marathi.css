@@ -1,0 +1,174 @@
+#minutes, #seconds{
+	font-size: 3vw !important;
+}
+
+.timer{
+	font-size: 2vw !important;
+}
+
+/* *{font-size: 1.05vw !important} */
+
+
+/* #insuranceContent{
+    font-weight:700;
+    font-size: 1.1vw !important;
+    position:absolute;
+    top:31.5%;
+    left:86% ;
+}
+#inventoryContent{
+    font-weight:700;
+    font-size: 1.1vw !important;
+    position:absolute;
+    top:24.5%;
+    left:86% ;
+}
+#lastBalanceContent{
+    font-weight:700;
+    font-size: 1.1vw !important;
+    position:absolute;
+    top:17%;
+    left:89% ;
+}
+#reputationContent{
+    font-weight:700;
+    font-size: 1.1vw !important;
+    position:absolute;
+    top:40%;
+    left:88%;
+} */
+
+
+/*title starts*/
+#take_input{
+    width:100%;
+}
+#radio0{
+    margin-left: 10px;
+}
+
+#radio1{
+    margin-left: 10px;
+}
+#radio2{
+    margin-left: 10px;
+}
+
+#radio3{
+    margin-left:10px;
+  }
+#weekTitle{
+    font-size: 1.5vw ;
+    font-weight:700;
+    right: 12%;
+    top: 3%;
+    position: absolute;
+    color: white;
+    background: red;
+}
+
+#lastBalanceTitle{
+    left:82%;
+    font-size: 1.5vw ;
+    position:absolute;
+    top:17%;
+    font-weight:700;
+}
+
+#inventoryTitle{
+    left:82%;
+    font-size: 1.5vw ;
+    position:absolute;
+    top:17%;
+    font-weight:700;
+}
+#insuranceTitle{
+    left:82%;
+    font-size: 1.5vw ;
+    position:absolute;
+    top:32%;
+    font-weight:700;
+}
+#reputationTitle{
+    left:82%;
+    font-size: 1.5vw ;
+    position:absolute;
+    top:29.5%;
+    font-weight:700;
+}
+#inventoryValueTitle{
+    font-size: 1.5vw ;
+    left:82%;
+    position:absolute;
+    top:23%;
+    font-weight:700;
+}
+/* #weekContent{
+    left:86%;
+    position:absolute;
+    top:10%;
+    font-size: 1.1vw !important;
+} */
+
+
+/*idr se new*/
+
+#percent{
+    font-size:1.1vw;
+}
+#value{
+    font-size:1.1vw;
+}
+
+.screenTitle{
+    font-size: 1.1vw;
+}
+
+
+.centerScoreBoardButton{
+    font-size:1.05vw;
+  }
+
+/* Purchase*/
+.currentInventoryTitle{
+    font-size: 1.2vw;
+}
+.purchaseTopRightScoreBoard{
+    font-size: 1.2vw;
+}
+.purchaseInputForm{
+    font-size: 1.2vw;
+}
+.purchaseInventoryLabel{
+    font-size: 1.2vw;
+}
+.purchaseScreenButton{
+    font-size:1.1vw;
+    font-weight: 600;
+}
+
+select{
+    padding: 0.5%;
+}
+
+.centerScoreBoardContainer{
+    font-size: 1.3vw;
+}
+
+/*advantage card*/
+#advantageCardScenario
+{
+    font-size: 1.1vw;
+}
+#advantageCardTitle{
+    font-size: 1.5vw;
+}
+
+.logoImage {
+    max-width: 80%;
+    margin-left: 1%;
+    background-image:url(../images/hindi/logo.png);
+    background-size: 100% 100%;
+    width: 15vw;
+    height: 7vw;
+}

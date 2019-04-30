@@ -1,0 +1,10 @@
+#scratch_card_canvas {
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	box-shadow: 5px 5px 10px grey;
+	position: absolute;
+    margin-right: -50%;
+	transform: translate(-50%, -50%);
+	border-radius: 8px;
+}

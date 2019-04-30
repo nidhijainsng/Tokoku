@@ -1,0 +1,79 @@
+#calculator{
+	background-color:#3d4543;
+	border-radius:.8vw;
+	width: 90%;
+	border: 3px solid brown;
+	padding: 2%;
+	height: 66%;
+}
+
+#numberInput{
+	width: 88%; 
+	height: 16%; 
+	margin-left:5%; 
+	margin-top: 3%;
+	border: 2px solid black; 
+	text-align: right;
+	background-color:#bccd95;
+	padding: 2%;
+	text-align:right
+}
+
+#calcButton{
+	width:17%;
+	height: 10%;
+	margin-left: 5%;
+	margin-top: 5%;
+	cursor:pointer;
+}
+
+input[id="calcButton"]:focus {outline:0;}
+
+
+.button.gray
+{
+color:white;
+background-color:#6f6f6f;
+border-bottom:black 2px solid;
+border-top:2px #6f6f6f solid;
+}
+.button.pink
+{
+color:black;
+background-color:#ff4561;
+border-bottom:black 2px solid;
+}
+.button.black
+{
+color:white;
+background-color:#303030;
+border-bottom:black 2px solid;
+border-top:2px #303030 solid;
+}
+.button.orange
+{
+color:black;
+background-color:#FF9933;
+border-bottom:black 2px solid;
+border-top:2px #FF9933 solid;
+}
+.gray:active
+{
+border-top:black 2px solid;
+border-bottom:2px #6f6f6f solid;
+}
+.pink:active
+{
+border-top:black 2px solid;
+border-bottom:#ff4561 2px solid;
+}
+.black:active
+{
+border-top:black 2px solid;
+border-bottom:#303030 2px solid;
+}
+.orange:active
+{
+border-top:black 2px solid;
+border-bottom:#FF9933 2px solid;
+}
