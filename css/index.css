@@ -60,14 +60,15 @@ body {
   /*payOff*/
 
   .payOffContainer{
-    width:50%;
+    width:65%;
     min-height:40vh;
+    font-size: 2vw;
     background-image: url(../images/redBorderAlt.png);
     background-size: 100% 100%;
     right:30%;
     padding: 2% 3%;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 7%;
     max-height: 80vmax;
     overflow: auto;
   }
@@ -127,7 +128,7 @@ width: 100%;
     border:0;
     color:black;
     font-weight:bold;
-    padding:2%;
+    padding:5%;
     font-weight: bold;
     padding-bottom: 5%;
 }
@@ -238,15 +239,17 @@ width: 100%;
     left:25%;
     right:25%;
     top:30%;
+    font-size:2vw;
     padding:1%;
 }
 
 #scenarioOutline{
     font-weight:600;
     position:absolute;
-    left:25%;
-    right:25%;
-    top:25%;
+    left:15%;
+    right:15%;
+    top:17.5%;
+    font-size: 2vw;
     padding:1%;
     background-color:white;
     border:1px solid black;
@@ -259,6 +262,7 @@ width: 100%;
     top:3%;
     right:5%;
     padding:1px;
+    font-size: 2vw;
     font-weight:600;
     background-color: #1dd3dc
 }
@@ -274,30 +278,31 @@ width: 100%;
     font-weight:600;
     left:25%;
     right:25%;
-    margin-top:20%;
+    margin-top:15.5%;
     padding:1%;
 }
 .luckPayButton{
-    padding:5px;
+    padding:5%;
     border:0;
+    font-size: 2vw;
     color:#123503;
     background-image:url('../images/buttonsmall.png');
     background-size: 100% 100%;
     background-color:transparent;
     background-repeat: no-repeat;
-    width: 45%;
+    width: 60%;
     font-weight: bold;
     
 }
 .paymentPayButton{
-    padding:5px;
+    padding:5%;
     border:0;
     color:#123503;
     background-image:url('../images/buttonsmall.png');
     background-size: 100% 100%;
     background-color:transparent;
     background-repeat: no-repeat;
-    width: 45%;
+    width: 60%;
     
 }
 .alternateMessageContainer{
@@ -309,7 +314,7 @@ width: 100%;
     padding:1%;
 }
 .takeQuizButton{
-    padding:5px;
+    padding:5%;
     border:0;
     color:#0e0e54;
     background-image:url('../images/buttonMedium.png');
@@ -352,7 +357,7 @@ width: 100%;
 }
 .luckIconContainer{
     width: 7%;
-    height: 13%;
+    height: 12%;
     top: 2.5%;
     left:1%;
     position: absolute;
@@ -371,7 +376,7 @@ width: 100%;
     bottom: 4%;
     right:2%;
     position:absolute;
-    width:9%;
+    width:15%;
     height:auto;
 }
 
@@ -380,7 +385,7 @@ width: 100%;
     bottom:4%;
     left:2%;
     position:absolute;
-    width:15%;
+    width: 17%;
     height:auto;
 }
 
