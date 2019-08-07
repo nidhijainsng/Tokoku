@@ -812,10 +812,10 @@ ubsApp.luckyUnluckyTemplate='<div style="width:100%;height:100%;position:relativ
 '       </div>'+
 '       <div id="result"></div>'+
 '       <div class="luckYouCanPayContainer">'+
-'           <div style="display:inline-block; width:100%;display: flex;flex-direction: row;justify-content: space-around;">'+
+'           <div style="display:inline-block; width:100%;display: flex;flex-direction: row;justify-content: center;">'+
 
 '               {{#if quizRequired}}'+
-'                   <div style="display:inline-block; width:33.33%; text-align:left;;float:left">'+
+'                   <div style="display:inline-block; width:33.33%; text-align:center;;float:left">'+
 '                {{else}}'+
 '                   <div style="width:33.33%; margin:auto; text-align: center;">'+
 '               {{/if}}'+
@@ -831,7 +831,7 @@ ubsApp.luckyUnluckyTemplate='<div style="width:100%;height:100%;position:relativ
 '              </div>'+
 
 '               {{#if quizRequired}}'+
-'                  <div style="display:inline-block; width:33.33%; text-align:left;float:left">'+
+'                  <div style="display:inline-block; width:33.33%; text-align:center;float:left">'+
 '                       <button class="takeQuizButton" onclick="ubsApp.luckPaymentQuiz(\'{{scenarioName}}\')">{{takeQuizTitle}}</button>'+
 '                  </div>'+
 '                   {{#if hasAdvantageCard}}'+
@@ -858,14 +858,16 @@ ubsApp.payOffTemplate='<div style="width:100%; height:100%; background-color:rgb
 '                      </div>'+
 '                      <div align="center"><img style="width: 100%;" src="images/red header.png"></div>'+
 '                      <div style="    margin-top: 5%;    margin-bottom: 5%;">'+
-'                           <span class="payOffSubTitleLeft">'+
+'                           <center><table style="width:76%;">'+
+'                               <tr>'+
+'                           <td><span class="payOffSubTitleLeft">'+
 '                               {{cashTitle}} '+
 '                               <span id="cashValue" >₹ {{cash}}</span>'+
-'                           </span>'+
-'                           <span class="payOffSubTitleRight">'+
+'                           </span></td>'+
+'                           <td><span class="payOffSubTitleRight">'+
 '                               {{bankBalanceTitle}} '+
 '                               <span id="bankBalanceValue">₹ {{bankBalance}}</span>'+
-'                           </span>'+
+'                           </span></td></tr></table></center>'+
 '                      </div>'+
 '                      <div style="margin: auto;     width: fit-content;">'+
 '                      {{#if #payOff}}'+
