@@ -540,7 +540,7 @@ ubsApp.quizTemplate = '<div id="quiz">'+
 '   </div>'+
 '</div>'+
 '<img src="{{gameLogo}}" class="quizGameLogoImage">' +
-'<div id="quizOkButtons" style="display:flex;width:100%;margin-left:68%">'+
+'<div id="quizOkButtons" style="display:flex;width:100%;margin-left:55%">'+
 '   <button id="quizDone" style="color:green" disabled class=\'quizButtons quizSubmitButtons\' onclick="ubsApp.doneQuiz()">{{doneTitle}}</button>'+
 '   <button id="quizCancel" style="color:red" class=\'quizButtons quizSubmitButtons\' onclick="ubsApp.cancelQuiz()">{{cancelTitle}}</button>'+
 '   <button id="quizHelp" class=\'quizButtons quizHelpButtons\' onclick="ubsApp.startHelp(\'{{helpPageName}}\')"></button>'+
@@ -899,10 +899,10 @@ ubsApp.payOffTemplate='<div style="width:100%; height:100%; background-color:rgb
 '                           </span>'+
 '                      {{else}}{{/if}}'+
 '                      </div> <div class="payOffButtonContainer">'+
-'                      <div style="width:24%;" >'+
+'                      <div style="width:35%;" >'+
 '                           <button style="color:green;" class="payOffButton" {{#if payOff}}onclick="ubsApp.payDebt()"{{/if}} {{#if transfer}}onclick="ubsApp.transferToBank()"{{/if}} {{#if withdraw}}onclick="ubsApp.withdrawFromBank()"{{/if}}>{{#if payOff}}{{payTitle}}{{/if}} {{#if transfer}}{{transferTitle}}{{/if}} {{#if withdraw}}{{withdrawTitle}}{{/if}}</button>'+
 '                      </div>'+
-'                      <div style="width:24%;margin-left: 2%;" >'+
+'                      <div style="width:35%;margin-left: 2%;" >'+
 '                           <button style="color:red;" class="payOffButton"  onclick="ubsApp.closeCurrentScenario(); {{#if openNextMove}} ubsApp.nextMove(); {{/if}}" >{{cancelTitle}}</button>'+
 '                      </div>' +
 '</div>'+
