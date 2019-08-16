@@ -109,10 +109,18 @@ monopoly.boardTemplate='<div class="responsive">'+
             '{{/each}}'+
         '</div>'+
     '</div>'+
-'</div>';
+'</div>'+
+'<nav class="navbar navbar-expand-lg navbar-light bg-light">'+
+            '<div>'+
+                '<button type="button" class="sideIcon" id="sidebarCollapse" onclick="ubsApp.openScoreBoard()">'+
+                
+                '</button>'+
+            '</div>'+
+        '</nav>';
 
-monopoly.sideScoreBoardTemplate=
-'<div class="sideScoreBoardMainContainer">'+
+monopoly.sideScoreBoardTemplate= '<div class="mainBoardoverlay">'+
+'<button id="sideScoreBoardCollapse" class="sideIconCollapse" onclick="ubsApp.closeSideIcon();"></button>'+
+'<nav class="sideScoreBoardMainContainer">'+
 '<div class="sideScoreBoard">'+
 '<div class="sideScoreBoardContainer">'+
 '        <div class="sideScoreBoardRow">'+
@@ -176,6 +184,7 @@ monopoly.sideScoreBoardTemplate=
 '       <button class="sideScoreBoardCol sideScoreBoardHelpButton" onclick="ubsApp.startHelp(\'instructionHelp\')"></button>'+
 '       <button class="sideScoreBoardCol sideScoreBoardEndButton" onclick="ubsApp.confirmEndGame()"></button>'+
 '  </div>'+
+'</nav>'+
 '</div>';
 
 

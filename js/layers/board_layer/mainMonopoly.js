@@ -96,6 +96,7 @@ monopoly.initialiseCategory = function(){
 
 monopoly.renderPageforBoard = function(page) {
 	let html = "";
+  var emptyFlag=true;
   var changeDefaultDiceFace=false;
 	for(let i=0; i< page.length; i++) {
         let templateConfig = $.extend({},page[i]);
@@ -144,9 +145,18 @@ monopoly.renderPageforBoard = function(page) {
                 object.debtAmount=userArray[playerChance].getCredit();
                 object.weekTitle = ubsApp.getTranslation("weekTitle");
                 var template=ubsApp.pages["sideScoreBoard"].templates[0];
-
+                emptyFlag=false;
+                $('#sideScoreBoardMainContainer').addClass('active');
+            // fade in the overlay
+                $('.mainBoardoverlay').addClass('active');
                 template=$.extend(template,object);
                 html += ubsSideScoreBoardTemplate(template);
+                document.getElementById("templateBase").style.zIndex = "996";
+                document.getElementById("templateContent").style.zIndex = "998";
+                document.getElementById("templateContent").style.opacity = "0.99";
+                $("#templateContent").empty();
+                $("#templateContent").append(html);
+                document.getElementById("templateContent").style.transition = "width 2s";
             }
             /*else if(templateType == "rollingDice"){
                 rollingDiceConfig.optionPageMap = templateConfig.optionPageMap;
@@ -176,8 +186,10 @@ monopoly.renderPageforBoard = function(page) {
             }
         }
 
-	$("#monopolyBase").empty();
-	$("#monopolyBase").append(html); 
+	if(emptyFlag){
+    $("#monopolyBase").empty();
+	  $("#monopolyBase").append(html);
+   } 
   if(changeDefaultDiceFace){
       monopoly.changeDefaultDice();
   }
@@ -1030,6 +1042,13 @@ ubsApp.initializeLeaderBoard=function(category)
 
 }
 
+ubsApp.openScoreBoard = function(){
+  monopoly.renderPageforBoard(monopoly.pages.SideScoreBoardPage);
+}
+
+ubsApp.closeSideIcon = function(){
+    $("#templateContent").empty();
+}
 
 ubsApp.openQuizIfValid = function() {
 

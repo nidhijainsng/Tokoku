@@ -4,7 +4,7 @@
 }
 
 .responsive {
-    width: 69%;
+    width: 95%;
     height: 96%;
     float: left;
 }
@@ -17,6 +17,7 @@
     height: 96%;
     float: right;
     margin-top: 10px;
+    z-index: 999;
 }
 
 .sideScoreBoard {
@@ -195,6 +196,60 @@
     margin-top: 0.5%;
 }
 
+.mainBoardoverlay {
+    position: fixed;
+    /* full screen */
+    width: 100%;
+    height: 100vh;
+    /* transparent black */
+    background: rgb(105,105,105);
+    /* middle layer, i.e. appears below the sidebar */
+    z-index: 996;
+    opacity: 0.95;
+    /* animate the transition */
+    transition: all 0.5s ease-in-out;
+}
+/* display .overlay when it has the .active class */
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+.sideIcon {
+
+    background: url('../images/sideIcon.png');
+    background-size: 100% 100%;
+    height: 33%;
+    width: 3%;
+    display: block;
+    padding-top: 3%;
+    padding-left: 4%;
+
+}
+
+.sideIconCollapse {
+
+    width: 4%;
+    height: 6%;
+    /* float: right; */
+    /* margin-right: 0%; */
+    margin-left: 68%;
+    margin-top: 1%;
+    background: url('../images/rightarrow.png');
+    background-size: 100% 100%;
+
+}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    /* top right corner of the sidebar */
+    top: 10px;
+    right: 10px;
+}
+
+
 .squareSide {
   width: 100%;
   flex-grow: 1;
@@ -207,6 +262,7 @@
   position: absolute;
   
 }
+
 
 .header-top {
   bottom: 0px;

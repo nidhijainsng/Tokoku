@@ -90,6 +90,14 @@ monopoly.origpages = {
 
 ],
 
+"SideScoreBoardPage":[
+       {
+            "templateId":12,
+            "templateType":"sideScoreBoard",
+        }
+
+],
+
   
 "InitialisePlayers":[{
                              "templateId":1,
@@ -631,11 +639,11 @@ monopoly.origpages = {
         {
             "templateId":4,
             "templateType":"rollingDice",
-        },
+        }/*,
         {
             "templateId":12,
             "templateType":"sideScoreBoard",
-        },
+        },*/
 
             
     ],
