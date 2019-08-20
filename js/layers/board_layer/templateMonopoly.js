@@ -110,7 +110,7 @@ monopoly.boardTemplate='<div class="responsive">'+
         '</div>'+
     '</div>'+
 '</div>'+
-'<nav class="navbar navbar-expand-lg navbar-light bg-light">'+
+'<nav >'+
             '<div>'+
                 '<button type="button" class="sideIcon" id="sidebarCollapse" onclick="ubsApp.openScoreBoard()">'+
                 

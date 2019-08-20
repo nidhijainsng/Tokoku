@@ -106,7 +106,7 @@ monopoly.renderPageforBoard = function(page) {
 		let templateType = templateConfig.templateType;
 
 		if(templateType == "board"){
-            flag2=true;
+            
 			boardConfig=templateConfig;
 			for(let i = 0; i<numplayers; i++){
 				templateConfig.top_row[0].players.push({
@@ -139,6 +139,7 @@ monopoly.renderPageforBoard = function(page) {
                changeDefaultDiceFace=true;
                html+=ubsBoardTemplate(templateConfig);
             } else if(templateType == "sideScoreBoard") {
+               flag2=true;
                 var object={};
                 object.bankBalanceAmount=userArray[playerChance].getBankBalance();
                 object.cashAmount=userArray[playerChance].getplayerScore();
@@ -189,6 +190,10 @@ monopoly.renderPageforBoard = function(page) {
 	if(emptyFlag){
     $("#monopolyBase").empty();
 	  $("#monopolyBase").append(html);
+    if(document.getElementById("playerId") != null){
+        $("#playerId").empty();
+        $("#playerId").html(userArray[playerChance].getplayerName());
+    }
    } 
   if(changeDefaultDiceFace){
       monopoly.changeDefaultDice();
