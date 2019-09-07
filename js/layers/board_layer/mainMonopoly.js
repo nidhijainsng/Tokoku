@@ -191,7 +191,7 @@ monopoly.renderPageforBoard = function(page) {
     $("#monopolyBase").empty();
 	  $("#monopolyBase").append(html);
     if(document.getElementById("playerId") != null){
-        $("#playerId").empty();
+          $("#playerId").empty();
         $("#playerId").html(userArray[playerChance].getplayerName());
     }
    } 
@@ -967,14 +967,17 @@ ubsApp.closeGame = function() {
 ubsApp.currentPlayerContents=function(){
     $("#playerId").empty();
 	$("#playerId").html(userArray[playerChance].getplayerName());
-	document.getElementById("weekContent").innerHTML=userArray[playerChance].getWeeks() + "/" + ubsApp.maxNumOfWeeks;
-	document.getElementById("bankBalance").innerHTML="₹ "+userArray[playerChance].getBankBalance();
-	document.getElementById("cash").innerHTML="₹ "+userArray[playerChance].getplayerScore();
-	document.getElementById("debt").innerHTML="₹ "+userArray[playerChance].getCredit();
-	document.getElementById("inventoryValueContent").innerHTML="₹ "+ Math.round((userArray[playerChance].getInventoryScore()*ubsApp.inventoryPerPercentValue));
-	document.getElementById("inventoryContent").innerHTML=userArray[playerChance].getInventoryScore()+"%";
-	document.getElementById("reputationContent").innerHTML=userArray[playerChance].getReputationPts();
-	document.getElementById("advantageCardContent").innerHTML=userArray[playerChance].getAdvantageCardNumber();
+	if(document.getElementById("weekContent") != null)
+  {
+    document.getElementById("weekContent").innerHTML=userArray[playerChance].getWeeks() + "/" + ubsApp.maxNumOfWeeks;
+  document.getElementById("bankBalance").innerHTML="₹ "+userArray[playerChance].getBankBalance();
+  document.getElementById("cash").innerHTML="₹ "+userArray[playerChance].getplayerScore();
+  document.getElementById("debt").innerHTML="₹ "+userArray[playerChance].getCredit();
+  document.getElementById("inventoryValueContent").innerHTML="₹ "+ Math.round((userArray[playerChance].getInventoryScore()*ubsApp.inventoryPerPercentValue));
+  document.getElementById("inventoryContent").innerHTML=userArray[playerChance].getInventoryScore()+"%";
+  document.getElementById("reputationContent").innerHTML=userArray[playerChance].getReputationPts();
+  document.getElementById("advantageCardContent").innerHTML=userArray[playerChance].getAdvantageCardNumber();
+  }
 }
 
 
