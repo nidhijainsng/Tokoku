@@ -1305,6 +1305,8 @@ ubsApp.translation={
        "quizWrongResultFromLuckyScenario":"तुमचे उत्तर बरोबर आहे. तुमचे पैसे कापले / वजा केले जाणार नाहीत व तुम्ही प्रतिष्ठा गुणही गमावणार नाही",
        "luckTakeQuizPopupMessage":"तुम्हाला एक प्रश्न दाखविला जाईल. तुम्ही त्याचे उत्तर दिले, तर तुमचा दंड माफ केला जाईल किंवा तुमच्या खात्यातून पैसे वजा केले जाणार नाहीत",
        "theGameBegins" : "खेळ सुरु झाला!!!",
+       "noPlayerAdded": "खेळण्यास प्रारंभ करण्यासाठी खेळाडू जोडा",
+       "noPlayerAddedHeader": "खेळाडू आवश्यक आहे",
        "hasHighestScoreMessage" : "खेळाडू {{playerName}} ने सर्वोच्च गुण मिळविले परंतु हे गुप्ताजीच्या नेहमीच्या नफ्यापेक्षा कमी होते.",
        "kycHelpImage":"images/incometaxhelp.png",
            "Jar" : "जार ",
