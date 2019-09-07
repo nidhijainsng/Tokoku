@@ -1322,7 +1322,8 @@ ubsApp.translation={
        "salesNoItemMessage" : "Inventory too low no items available to sell.",
        "advantageCardConvertSuccess" : "Congratulations you now have {{advantageCard}}  Advantage Card(s){{reputationPoints}} Reputation points have been used.",
        "decisionBankBalanceTitle":"BANK-BALANCE",
-
+       "noPlayerAdded": "Add players to start playing",
+       "noPlayerAddedHeader": "PLAYER NEEDED",
 
 
         "itemTable":{

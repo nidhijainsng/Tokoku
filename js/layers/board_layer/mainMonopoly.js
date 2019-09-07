@@ -346,7 +346,20 @@ monopoly.storePlayerDetails=function(){
     let isOffline = ubsApp.isOfflineMode;
     let playerMap = {};
     ubsApp.maxNumOfWeeks = $("input[name='noOfWeeks']:checked"). val();
-     for( i=0;i<numplayers;i++) {
+
+    if (numplayers <= 0) {
+      ubsApp.openPopup({
+        "header" : ubsApp.getTranslation("noPlayerAddedHeader"),
+        "message" : ubsApp.getTranslation("noPlayerAdded"),
+        "headerStyle" : "text-align: center;  color: black; font-weight: 700;",
+        "showCloseButton" : true,
+        "showBorder" : true,
+        "backgroundColor" :"white",
+     });
+     return;
+    }
+
+    for( i=0;i<numplayers;i++) {
 
         if(playerMap[document.getElementById("name"+i).value]) {
              ubsApp.openPopup({

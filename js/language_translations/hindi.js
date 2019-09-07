@@ -1289,6 +1289,8 @@ ubsApp.translation={
         "inventoryChanged" : "इन्वेंटरी प्रतिशत बदल गया",
         "inventoryValueChanged" : "इन्वेंटरी मूल्य बदल गया",
         "bankBalanceChanged" : "बैंक बैलेंस बदल गया",
+        "noPlayerAdded": "खेल शुरू करने के लिए खिलाड़ी जोड़ें",
+        "noPlayerAddedHeader": "खिलाड़ी आवश्यक है",
 	
 	"itemTable":{
             "1":"गेहूँ",
