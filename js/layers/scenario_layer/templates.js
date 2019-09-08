@@ -542,7 +542,7 @@ ubsApp.quizTemplate = '<div id="quiz">'+
 '<img src="{{gameLogo}}" class="quizGameLogoImage">' +
 '<div id="quizOkButtons" style="display:flex;width:100%;margin-left:55%">'+
 '   <button id="quizDone" style="color:green" disabled class=\'quizButtons quizSubmitButtons\' onclick="ubsApp.doneQuiz()">{{doneTitle}}</button>'+
-'   <button id="quizCancel" style="color:red" class=\'quizButtons quizSubmitButtons\' onclick="ubsApp.cancelQuiz()">{{cancelTitle}}</button>'+
+'   <button id="quizCancel" style="color:red" class=\'quizButtons quizSubmitButtons\' onclick="ubsApp.cancelQuiz(\'{{luckScenarioName}}\')">{{cancelTitle}}</button>'+
 '   <button id="quizHelp" class=\'quizButtons quizHelpButtons\' onclick="ubsApp.startHelp(\'{{helpPageName}}\')"></button>'+
 '</div>'+
 '</div>';

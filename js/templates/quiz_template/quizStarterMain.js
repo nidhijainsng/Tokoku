@@ -28,7 +28,10 @@ ubsApp.emptyQuizQuestions = function(){
 
 
 
-ubsApp.cancelQuiz=function(){
+ubsApp.cancelQuiz=function(scenarioName){
+	if(scenarioName!=""){
+		ubsApp.payOrGain(scenarioName);
+	}
 	choiceSelected = {};
 	$("#quizCancel").attr("disabled", false);
 	ubsApp.closeCurrentScenario();
