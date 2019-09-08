@@ -298,7 +298,9 @@ monopoly.myMove = function(count, pId, currentPos) {
       
       blockNo %= boardConfig.blocks;
       if(blockNo==0){
-        document.getElementById("weekContent").innerHTML=userArray[playerChance].getWeeks() + "/" + ubsApp.maxNumOfWeeks;
+          if(document.getElementById("weekContent")!=null){
+            document.getElementById("weekContent").innerHTML=userArray[playerChance].getWeeks() + "/" + ubsApp.maxNumOfWeeks;
+          }
       }
       $("#" + blockNo).append(playerToken);
       var audioElement = document.getElementById('p'+pId+'');
