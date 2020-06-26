@@ -776,9 +776,9 @@ ubsApp.purchaseTemplate = '<div class="container-fluid mainPurchaseDiv">'+
 '                </div>'+
 '            </div></div>'+
 '            <div class="row" style="height:20vmax;">'+
-'                    <div class="confirmButton mainButtons" onclick="ubsApp.pay(\'{{startTime}}\'); ">{{doneTitle}}</div>'+
-'                    <div class="confirmButton mainButtons" id="target_cancel" onclick="ubsApp.closeCurrentScenario(); {{#if openNextMove }} ubsApp.nextMove(); {{/if}}">{{noThanksTitle}}</div>'+
-'                    <div class="helpBtn mainButtons" onclick="ubsApp.startHelp(\'purchaseHelp\')"></div>'+
+'                    <div class="confirmButton mainButtons buyMainButtons" onclick="ubsApp.pay(\'{{startTime}}\'); ">{{doneTitle}}</div>'+
+'                    <div class="confirmButton mainButtons buyMainButtons" id="target_cancel" onclick="ubsApp.closeCurrentScenario(); {{#if openNextMove }} ubsApp.nextMove(); {{/if}}">{{noThanksTitle}}</div>'+
+'                    <div class="helpBtn mainButtons buyMainButtons" onclick="ubsApp.startHelp(\'purchaseHelp\')"></div>'+
 '            </div>'+
 '        </div>'+
 '    </div>'+
@@ -1284,7 +1284,7 @@ ubsApp.popUpTemplate = '<div style="{{style}};{{#if showBorder}}background-image
                        '            {{/if}}'+
                        '        </div>'+
                        '        <div style="text-align: center;margin-top: 10px;">'+
-                       '            <div style="width: fit-content;margin: auto;margin-top: 2%;">'+
+                       '            <div style="width: fit-content;width: -moz-max-content;margin: auto;margin-top: 2%;">'+
                        '                {{#each buttons}}'+
 
                        '                <div id= "{{id}}" style="cursor:pointer;    float: left;margin-right: 10px;background-image: url(images/buttonMedium.png);background-size: 100% 100%;width: fit-content; padding: 15px; padding-bottom: 15%; color: red; font-weight:bold" onclick="{{action}}" >{{name}}'+

@@ -582,6 +582,9 @@ button:focus {outline:0;}
     margin-top: 25%;
     padding-top: 1%;
 }
+.buyMainButtons {
+    margin-top: 15%;
+}
 .mainPurchaseDiv {
     background-image: url(../images/background.png);
     overflow:hidden;

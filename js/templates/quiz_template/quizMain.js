@@ -134,9 +134,9 @@ ubsApp.checkAnswerAndRenderNextPage=function(page, answer, optionName, questionI
 	  	
 	  }
 	  ubsApp.currentPlayerContents();
-	  if(ubsApp.pages[page].templates[0].quizResult){
-	  	ubsApp.displayResults(page);
-	  }
+	  // if(ubsApp.pages[page].templates[0].quizResult){
+	  // 	ubsApp.displayResults(page);
+	  // }
   }
 }
 
