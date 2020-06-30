@@ -150,7 +150,8 @@ ubsApp.validateAmount = function(showPopup = true) {
         }
     return true;
 }
-ubsApp.reduceInventory= function(page,amount,hideScenarios,total,totalTime, startTime){
+ubsApp.reduceInventory= function(page,amount,hideScenarios,total,totalTime, startTime, questionId){
+  console.log("Sales Question ID: " + questionId);
     total = parseFloat(total);
 	let time = totalTime - $("#seconds").html();
 	ubsApp.stopTimer();
@@ -171,8 +172,8 @@ ubsApp.reduceInventory= function(page,amount,hideScenarios,total,totalTime, star
 
 		userArray[playerChance].setReputationPts(r + reputationPointIncrease);
 		ubsApp.raiseAudioEvent(document.getElementById('salesSubmitButton'), 'rightAnswer');
-      ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(),0,reputationPointIncrease, 0, ubsApp.getCategoryToPostScore(ubsApp.currentScenarioCategory), startTime,"salesReputationPointIncrease");
-		  ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(),0,cashIncreased, 0, ubsApp.getCategoryToPostScore(ubsApp.currentScenarioCategory), startTime,"salesCashIncrease");
+      ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(),questionId,reputationPointIncrease, 0, ubsApp.getCategoryToPostScore(ubsApp.currentScenarioCategory), startTime,"salesReputationPointIncrease");
+		  ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(),questionId,cashIncreased, 0, ubsApp.getCategoryToPostScore(ubsApp.currentScenarioCategory), startTime,"salesCashIncrease");
         let message = ubsApp.getTranslation("salesCorrectAnswer");
 		if(reputationPointIncrease > 0) {
 		    message += "<br>" + ubsApp.getTranslation("salesCorrectRptpt1").replace("{{reputationPoints}}",reputationPointIncrease).replace("{{time}}",time);
@@ -199,8 +200,8 @@ ubsApp.reduceInventory= function(page,amount,hideScenarios,total,totalTime, star
 			userArray[playerChance].setReputationPts(r-4);
 			userArray[playerChance].setplayerScore(c+cashIncreased);
 			message+= "<br>" + ubsApp.getTranslation("salesWrongRptpt") + 4 + ". ";
-      ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(),0,r-4, 0,ubsApp.getCategoryToPostScore(ubsApp.currentScenarioCategory), startTime,"salesReputationPointDecrease");
-      ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(),0,c+cashIncreased, 0, ubsApp.getCategoryToPostScore(ubsApp.currentScenarioCategory), startTime,"salesCashIncrease");
+      ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(),questionId,r-4, 0,ubsApp.getCategoryToPostScore(ubsApp.currentScenarioCategory), startTime,"salesReputationPointDecrease");
+      ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(),questionId,c+cashIncreased, 0, ubsApp.getCategoryToPostScore(ubsApp.currentScenarioCategory), startTime,"salesCashIncrease");
  
 		}
 		else{
@@ -208,8 +209,8 @@ ubsApp.reduceInventory= function(page,amount,hideScenarios,total,totalTime, star
 		    userArray[playerChance].setReputationPts(r-4);
 			userArray[playerChance].setplayerScore(c+cashIncreased);
 			message+="<br>" + ubsApp.getTranslation("salesWrongRptpt") + 4 + ". ";
-      ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(),0,r-4, 0, ubsApp.currentScenarioCategory, startTime,"salesReputationPointDecrease");
-      ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(),0,c+cashIncreased, 0, ubsApp.currentScenarioCategory, startTime,"salesCashIncrease");
+      ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(),questionId,r-4, 0, ubsApp.currentScenarioCategory, startTime,"salesReputationPointDecrease");
+      ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(),questionId,c+cashIncreased, 0, ubsApp.currentScenarioCategory, startTime,"salesCashIncrease");
 
 		}
 
