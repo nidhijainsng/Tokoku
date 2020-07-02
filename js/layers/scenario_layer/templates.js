@@ -495,7 +495,7 @@ ubsApp.leaderBoardTemplate=
 '           <input id="calcButton" class="button orange" type="button" value="+/-" disabled onclick="addToDisplay(\'\')">'+
 '       </div>'+
 '<div style="display:flex; width:100%; text-align:left;     margin-top: 2%;">'+
-'                  <div id= "salesSubmitButton" class="submitButton" style="cursor:pointer" onclick="if (ubsApp.validateAmount() !== false) { ubsApp.reduceInventory(\' {{onClickPage.nextPage}} \',\'{{amount}}\', \'{{onClickPage.hideScenarios}}\',\'{{tempTotal}}\',\'{{time}}\', \'{{startTime}}\');}">'+
+'                  <div id= "salesSubmitButton" class="submitButton" style="cursor:pointer" onclick="if (ubsApp.validateAmount() !== false) { ubsApp.reduceInventory(\' {{onClickPage.nextPage}} \',\'{{amount}}\', \'{{onClickPage.hideScenarios}}\',\'{{tempTotal}}\',\'{{time}}\', \'{{startTime}}\', \'{{questionId}}\');}">'+
 '           {{SUBMIT}}'+
 ' </div>' +
 '           <div class="helpBtn" style="padding: 6%;" onclick="ubsApp.startHelp(\'{{helpPageName}}\')"></div>'+
@@ -776,7 +776,7 @@ ubsApp.purchaseTemplate = '<div class="container-fluid mainPurchaseDiv">'+
 '                </div>'+
 '            </div></div>'+
 '            <div class="row" style="height:20vmax;">'+
-'                    <div class="confirmButton mainButtons buyMainButtons" onclick="ubsApp.pay(\'{{startTime}}\'); ">{{doneTitle}}</div>'+
+'                    <div class="confirmButton mainButtons buyMainButtons" onclick="ubsApp.pay(\'{{startTime}}\',\'{{questionId}}\'); ">{{doneTitle}}</div>'+
 '                    <div class="confirmButton mainButtons buyMainButtons" id="target_cancel" onclick="ubsApp.closeCurrentScenario(); {{#if openNextMove }} ubsApp.nextMove(); {{/if}}">{{noThanksTitle}}</div>'+
 '                    <div class="helpBtn mainButtons buyMainButtons" onclick="ubsApp.startHelp(\'purchaseHelp\')"></div>'+
 '            </div>'+
@@ -820,11 +820,11 @@ ubsApp.luckyUnluckyTemplate='<div style="width:100%;height:100%;position:relativ
 '                   <div style="width:33.33%; margin:auto; text-align: center;">'+
 '               {{/if}}'+
 '               {{#if isLuckCategory}}'+
-'                  <button class="luckPayButton" onclick="ubsApp.payOrGain(\'{{scenarioName}}\')">'+
+'                  <button class="luckPayButton" onclick="ubsApp.payOrGain(\'{{scenarioName}}\',\'{{questionId}}\')">'+
 '                    {{#if negative}}{{payTitle}}{{else}}{{gainTitle}}{{/if}}'+
 '                  </button>'+
 '                {{else}}'+
-'                  <button class="paymentPayButton" onclick="ubsApp.payFromBank(\'{{scenarioName}}\')">'+
+'                  <button class="paymentPayButton" onclick="ubsApp.payFromBank(\'{{scenarioName}}\',\'{{questionId}}\')">'+
 '                    {{#if negative}}{{payTitle}}{{else}}{{gainTitle}}{{/if}}'+
 '                  </button>'+
 '               {{/if}}'+
@@ -902,7 +902,7 @@ ubsApp.payOffTemplate='<div style="width:100%; height:100%; background-color:rgb
 '                      {{else}}{{/if}}'+
 '                      </div> <div class="payOffButtonContainer">'+
 '                      <div style="width:35%;" >'+
-'                           <button style="color:green;" class="payOffButton" {{#if payOff}}onclick="ubsApp.payDebt()"{{/if}} {{#if transfer}}onclick="ubsApp.transferToBank()"{{/if}} {{#if withdraw}}onclick="ubsApp.withdrawFromBank()"{{/if}}>{{#if payOff}}{{payTitle}}{{/if}} {{#if transfer}}{{transferTitle}}{{/if}} {{#if withdraw}}{{withdrawTitle}}{{/if}}</button>'+
+'                           <button style="color:green;" class="payOffButton" {{#if payOff}}onclick="ubsApp.payDebt(\'{{questionId}}\')"{{/if}} {{#if transfer}}onclick="ubsApp.transferToBank(\'{{questionId}}\')"{{/if}} {{#if withdraw}}onclick="ubsApp.withdrawFromBank(\'{{questionId}}\')"{{/if}}>{{#if payOff}}{{payTitle}}{{/if}} {{#if transfer}}{{transferTitle}}{{/if}} {{#if withdraw}}{{withdrawTitle}}{{/if}}</button>'+
 '                      </div>'+
 '                      <div style="width:35%;margin-left: 2%;" >'+
 '                           <button style="color:red;" class="payOffButton"  onclick="ubsApp.closeCurrentScenario(); {{#if openNextMove}} ubsApp.nextMove(); {{/if}}" >{{cancelTitle}}</button>'+

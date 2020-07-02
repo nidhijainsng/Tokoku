@@ -110,5 +110,27 @@
 
 <img style="display:none" src="images/redbgcommon.png"></img>
 </body>
+<script>
 
+window.onload = function() {
+     let userAgentString =  navigator.userAgent; 
+
+     console.log(userAgentString);
+
+     // Detect Internet Explorer 
+     let IExplorerAgent = (navigator.userAgent.indexOf("MSIE") != -1 ) || (!!document.documentMode == true );
+	 
+     // Detect Chrome 
+     let chromeAgent = userAgentString.indexOf("Chrome") > -1; 
+	
+     // Detect Firefox 
+     let firefoxAgent = userAgentString.indexOf("Firefox") > -1; 
+
+     if(IExplorerAgent&&!chromeAgent&&!firefoxAgent){
+     
+     window.location.href("./error.html");
+     } 
+};
+
+</script>
 <html>

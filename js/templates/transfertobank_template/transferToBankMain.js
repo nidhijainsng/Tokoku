@@ -23,11 +23,12 @@ ubsApp.getTransferTemplate=function(templateConfig,tempVar){
 	//ubsApp.openNextMoveAfterTransfer = false;
 }
 
-ubsApp.transferToBank=function(){
+ubsApp.transferToBank=function(questionId){
+	console.log("Transfer Question ID : " + questionId);
 	var amount=document.getElementById("debtPaymentText").value;
 	var date = new Date();
 	var startTime=date.getDate()+"-"+(date.getMonth()+1)+"-"+date.getFullYear()+" "+date.getHours()+":"+date.getMinutes()+":"+date.getSeconds();
-	ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(),0,amount, 0,0, startTime,"transferToBank");
+	ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(),questionId,amount, 0,0, startTime,"transferToBank");
 
 	if(amount){
 		if(amount<=userArray[playerChance].getplayerScore()){
@@ -38,6 +39,7 @@ ubsApp.transferToBank=function(){
 				userArray[playerChance].setReputationPts(userArray[playerChance].getReputationPts()+5);
 			}
 			cashTransfered=true;
+
 			
 			var temptimer;
 			var temptime=20;
