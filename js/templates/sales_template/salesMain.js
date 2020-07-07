@@ -124,10 +124,10 @@ ubsApp.validateAmount = function(showPopup = true) {
            return false;
 	    }else{
             if(item[i].id=="discount"){
-                sum_of_individual_items=sum_of_individual_items-parseInt(item[i].value);
+                sum_of_individual_items=sum_of_individual_items-parseFloat(item[i].value);
             }
             else{
-                sum_of_individual_items=sum_of_individual_items+parseInt(item[i].value);
+                sum_of_individual_items=sum_of_individual_items+parseFloat(item[i].value);
             }
             
         }
