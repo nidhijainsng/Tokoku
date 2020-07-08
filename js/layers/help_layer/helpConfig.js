@@ -50,7 +50,7 @@ ubsApp.helpConfig={
                 "id":"helpContentVideo",
                 "style":"position:absolute;top:2%;left:2%;background-repeat: no-repeat;color:white;height:100vh;width:99vw;",
                 "src":"<div style=\"width:95%;height:95%\"><video  id=\"helpVideo\" width=\"100%\" height=\"100%\" controls autoplay playsinline ><source src={{incomeTaxVideo}} type=\"video/mp4\"></video> </div>",
-                "srcOnline":"<div style=\"width:95%;height:95%\"><video  id=\"helpVideo\" width=\"100%\" height=\"100%\" controls autoplay playsinline ><source src={{incomeTaxVideoOnline}} type=\"video/mp4\"></video> </div>",
+                "srcOnline":"<div style=\"width:95%;height:95%\"><video  id=\"helpVideo\" width=\"100%\" height=\"100%\" controls autoplay playsinline ><source src={{incomeTaxVideoOnline}} type=\"video/mp4\"></video> </div>"
 
             },
             {
@@ -129,7 +129,7 @@ ubsApp.helpConfig={
                 "id":"helpContentVideo",
                 "style":"position:absolute;top:2%;left:2%;background-repeat: no-repeat;color:white;height:100vh;width:99vw;",
                 "src":"<div style=\"width:95%;height:95%\"><video id=\"helpVideo\" width=\"100%\" height=\"100%\" controls autoplay playsinline ><source src={{atmVideo}} type=\"video/mp4\"></video> </div>",
-                "srcOnline":"<div style=\"width:95%;height:95%\"><video id=\"helpVideo\" width=\"100%\" height=\"100%\" controls autoplay playsinline ><source src={{atmVideoOnline}} type=\"video/mp4\"></video> </div>",
+                "srcOnline":"<div style=\"width:95%;height:95%\"><video id=\"helpVideo\" width=\"100%\" height=\"100%\" controls autoplay playsinline ><source src={{atmVideoOnline}} type=\"video/mp4\"></video> </div>"
             },
             {
                 "templateId":4,
@@ -330,7 +330,7 @@ ubsApp.helpConfig={
                 "id":"helpContentVideo",
                 "style":"position:absolute;top:2%;left:2%;background-repeat: no-repeat;color:white;height:100vh;width:99vw;",
                 "src":"<div style=\"width:95%;height:95%\"><video id=\"helpVideo\" width=\"100%\" height=\"100%\" controls autoplay playsinline ><source src={{purchaseVideo}} type=\"video/mp4\"></video> </div>",
-                "srcOnline":"<div style=\"width:95%;height:95%\"><video id=\"helpVideo\" width=\"100%\" height=\"100%\" controls autoplay playsinline ><source src={{purchaseVideoOnline}} type=\"video/mp4\"></video> </div>",
+                "srcOnline":"<div style=\"width:95%;height:95%\"><video id=\"helpVideo\" width=\"100%\" height=\"100%\" controls autoplay playsinline ><source src={{purchaseVideoOnline}} type=\"video/mp4\"></video> </div>"
 
              },
             {
