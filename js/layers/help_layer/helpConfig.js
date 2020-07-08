@@ -11,7 +11,7 @@ ubsApp.helpConfig={
 
                 "style":"position:absolute;top:2%;left:2%;background-repeat: no-repeat;color:white;height:100vh; width:99vw;",
                 "src":"<div style=\"width:95%;height:95%\"><video id=\"helpVideo\" width=\"100%\" height=\"100%\" controls autoplay loop muted playsinline><source src={{salesVideo}} type=\"video/mp4\"></video> </div>",
-                "srcOnline":"<div style=\"width:95%;height:95%\"><video id=\"helpVideo\" width=\"100%\" height=\"100%\" controls autoplay loop muted playsinline<source src={{salesVideoOnline}} type=\"video/mp4\"></video> </div>"
+                "srcOnline":"<div style=\"width:95%;height:95%\"><video id=\"helpVideo\" width=\"100%\" height=\"100%\" controls autoplay loop muted playsinline><source src={{salesVideoOnline}} type=\"video/mp4\"></video> </div>"
 
 
             },
