@@ -975,7 +975,10 @@ ubsApp.addInventory=function(inventoryPoints){
 ubsApp.closeGame = function() {
     if(ubsApp.isAndroidEnabled) {
         Android.endSession();
+    }else{
+      window.location.href = "../prathamubs/thank_you.html";
     }
+
 }
 
 
