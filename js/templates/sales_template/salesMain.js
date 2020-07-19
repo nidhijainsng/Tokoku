@@ -97,7 +97,7 @@ ubsApp.salesOnLoadActions = function () {
 ubsApp.validateAmount = function(showPopup = true) {
     var item = document.getElementsByName('amt');
     var salesSubmitButton = document.getElementById('salesSubmitButton');
-
+    var sum_of_individual_items=0;
 	for(var i=0;i<item.length;i++){
     	if(!item[i].value) {
     	   if(showPopup) {
@@ -122,10 +122,18 @@ ubsApp.validateAmount = function(showPopup = true) {
     	   }
 
            return false;
-	    }
+	    }else{
+            if(item[i].id=="discount"){
+                sum_of_individual_items=sum_of_individual_items-parseFloat(item[i].value);
+            }
+            else{
+                sum_of_individual_items=sum_of_individual_items+parseFloat(item[i].value);
+            }
+            
+        }
 	}
-
-    if(!$("#receiptTotal").val()) {
+    console.log(sum_of_individual_items);
+    if(!$("#receiptTotal").val()||sum_of_individual_items!=parseFloat($("#receiptTotal").val())) {
         if(showPopup) {
              ubsApp.openPopup({
                                    "message" : "Please calculate total amount. Do you need any help?",//ubsApp.getTranslation("quizLimitReachedForWeek"),

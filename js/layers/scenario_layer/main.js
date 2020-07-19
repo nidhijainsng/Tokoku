@@ -274,8 +274,8 @@ ubsApp.stopTimer = function() {
 
 ubsApp.closeCurrentScenario=function(){
     $('#resultBackground').hide();
-	$('#monopolyBase').css("z-index",0)
-	$('#templateContent').css("z-index",0)
+	// $('#monopolyBase').css("z-index",0)
+	// $('#templateContent').css("z-index",0)
 	$('#templateContent').css("height",0+'px')
 	document.getElementById("templateContent").innerHTML="";
 	document.getElementById("templateContent").style["background-color"] = "rgb(105,105,105)";
@@ -288,8 +288,8 @@ ubsApp.closeCurrentScenario=function(){
 
 ubsApp.startCurrentScenario=function(){
     $('#resultBackground').show();
-	$('#monopolyBase').css("z-index",-10)
-	$('#templateBase').css("z-index",10)
+	// $('#monopolyBase').css("z-index",-10)
+	// $('#templateBase').css("z-index",10)
 	
 	document.getElementById("templateContent").style.opacity="0.95";
 	
