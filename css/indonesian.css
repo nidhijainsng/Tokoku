@@ -1,0 +1,117 @@
+/* #insuranceContent{
+    font-weight:700;
+    position:absolute;
+    top:31.5%;
+    left:89%;
+}
+#inventoryContent{
+    font-weight:700;
+    position:absolute;
+    top:24.5%;
+    left:89%;
+}
+#lastBalanceContent{
+    font-weight:700;
+    position:absolute;
+    top:17%;
+    left:91%;
+}
+#reputationContent{
+    font-weight:700;
+    position:absolute;
+    top:40%;
+    left:92%;
+} */
+#weekTitle{
+    right: 12%;
+    position: absolute;
+    top: 3%;
+    font-weight: 700;
+    color: white;
+    background: red;
+}
+
+#lastBalanceTitle{
+    left:82%;
+    position:absolute;
+    top:17%;
+    font-weight:700;
+}
+
+#inventoryValueTitle{
+    left:82%;
+    position:absolute;
+    top:23%;
+    font-weight:700;
+}
+/* #inventoryValueContent{
+    font-weight:700;
+    position:absolute;
+    top:17%;
+    left:91%;
+}
+#weekContent{
+    font-weight:700;
+    position:absolute;
+    top:2%;
+    right:2%;
+} */
+
+#inventoryTitle{
+    left:82%;
+    position:absolute;
+    top:17%;
+    font-weight:700;
+}
+#insuranceTitle{
+    left:82%;
+    position:absolute;
+    top:32%;
+    font-weight:700;
+}
+#reputationTitle{
+    left:82%;
+    font-weight:700;
+    position:absolute;
+    top:29.5%;
+}
+
+/*idr se new*/
+
+  .centerScoreBoardButton{
+  }
+.centerScoreBoardContainer{
+  }
+
+  #radio0{
+    margin-left:22px;
+  }
+  
+  #radio1{
+    margin-left:22px;
+  }
+  
+  #radio2{
+    margin-left:22px;
+  }
+  
+  #radio3{
+    margin-left:22px;
+  }
+
+
+  /*advantage card*/
+#advantageCardScenario
+{
+}
+#advantageCardTitle{
+}
+
+.logoImage {
+    max-width: 80%;
+    margin-left: 1%;
+    background-image:url(../images/english/logo.png);
+    background-size: 100% 100%;
+    width: 15vw;
+    height: 7vw;
+}
