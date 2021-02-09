@@ -4,10 +4,10 @@ monopoly.origpages = {
         {
             "templateId":1,
             "templateType":"static",
-            "src":"<div id=\"languageDetails\" style=\"cursor:pointer\" onclick=\"monopoly.chooseLanguage('english')\"><label style=\"color:white; cursor:pointer\" for\"english\">English</label></div>",
+            "src":"<div id=\"languageDetails\" style=\"cursor:pointer\" onclick=\"monopoly.chooseLanguage('indonesian')\"><label style=\"color:white; cursor:pointer\" for\"indonesian\">Indonesian</label></div>",
             "style": "position:absolute;margin-left:15%;padding:10px;border-radius:5px; background-color:black; width:70%;top:30%;"
-        },
-        {
+        }
+        /*{
             "templateId":1,
             "templateType":"static",
             "src":"<div id=\"languageDetails\" style=\"cursor:pointer\" onclick=\"monopoly.chooseLanguage('hindi')\"><label style=\"color:white;cursor:pointer\" for\"hindi\">Hindi || हिंदी</label></div>",    
@@ -18,19 +18,19 @@ monopoly.origpages = {
                     "templateType":"static",
                     "src":"<div id=\"languageDetails\" style=\"cursor:pointer\"  onclick=\"monopoly.chooseLanguage('marathi')\"><label style=\"color:white;cursor:pointer\" for\"hindi\">Marathi || मराठी</label></div>",
                     "style": "position:absolute; width:70%;padding:10px;border-radius:5px;top:60%;margin-left:15%; background-color:black;"
-          },
+          },*/
         /*{
             "templateId":2,
             "templateType":"static",
             "src":"<button class=\"longButton\" onclick=\"monopoly.chooseLanguage()\" >CHOOSE LANGUAGE</button>",
             "style": "position: absolute;padding:10px;border-radius:5px;top:80%;left:35%;margin-left:5%; "
         },*/
-        {
+       /* {
             "templateId":2,
             "templateType":"static",
             "src":"<img src=\"images/guptaji/guptaji_front.png\" style=\"position:absolute; top:20%; width: 12%; height: 40%;\"></img>",
-           /* "style": "position: absolute;padding:10px;border-radius:5px;top:20%; " */
-        }
+            "style": "position: absolute;padding:10px;border-radius:5px;top:20%; " 
+        }*/
 
     ],
  
