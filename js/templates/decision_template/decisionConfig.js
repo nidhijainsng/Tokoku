@@ -1,5 +1,3 @@
-	
-
 ubsApp.decisionConfig = {
 	
 	"decision1" : {
@@ -30,7 +28,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-1000,
+							"bankBalance":-200000,
 							"reputationPoints":-5,
 							"cash":0,
 						},
@@ -41,7 +39,7 @@ ubsApp.decisionConfig = {
 						"id":2,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-2500,
+							"bankBalance":-500000,
 							"reputationPoints":5,
 							"cash":0,
 						},
@@ -193,7 +191,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-23500,
+							"bankBalance":-5000000,
 							"reputationPoints":20,
 							"cash":0,
 						},
@@ -215,7 +213,7 @@ ubsApp.decisionConfig = {
 						"id":3,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-5000,
+							"bankBalance":-1000000,
 							"reputationPoints":-20,
 							"cash":0,
 						},
@@ -255,7 +253,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-100,
+							"bankBalance":-20000,
 							"reputationPoints":5,
 							"cash":0,
 						},
@@ -305,7 +303,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-1200,
+							"bankBalance":-250000,
 							"reputationPoints":10,
 							"cash":0,
 						},
@@ -316,7 +314,7 @@ ubsApp.decisionConfig = {
 						"id":2,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-500,
+							"bankBalance":-100000,
 							"reputationPoints":-5,
 							"cash":0,
 						},
@@ -355,7 +353,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-5000,
+							"bankBalance":-1000000,
 							"reputationPoints":10,
 							"cash":0,
 						},
@@ -405,7 +403,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,
-							"bankBalance":500,
+							"bankBalance":5000,
 							"reputationPoints":-5,
 							"cash":0,
 						},
@@ -466,7 +464,7 @@ ubsApp.decisionConfig = {
 						"id":2,
 						"credit":{
 							"inventory":0,
-							"bankBalance":7000,
+							"bankBalance":1350000,
 							"reputationPoints":-10,
 							"cash":0,
 						},
@@ -516,7 +514,7 @@ ubsApp.decisionConfig = {
 						"id":2,
 						"credit":{
 							"inventory":0,
-							"bankBalance":500,
+							"bankBalance":100000,
 							"reputationPoints":10,
 							"cash":0,
 						},
@@ -555,7 +553,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-100,
+							"bankBalance":-20000,
 							"reputationPoints":-20,
 							"cash":0,
 						},
@@ -566,7 +564,7 @@ ubsApp.decisionConfig = {
 						"id":2,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-500,
+							"bankBalance":-5000,
 							"reputationPoints":10,
 							"cash":0,
 						},
@@ -605,7 +603,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-750,
+							"bankBalance":-150000,
 							"reputationPoints":-10,
 							"cash":0,
 						},
@@ -616,7 +614,7 @@ ubsApp.decisionConfig = {
 						"id":2,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-2250,
+							"bankBalance":-450000,
 							"reputationPoints":10,
 							"cash":0,
 						},
@@ -655,7 +653,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-2100,
+							"bankBalance":-405000,
 							"reputationPoints":10,
 							"cash":0,
 						},
@@ -666,7 +664,7 @@ ubsApp.decisionConfig = {
 						"id":2,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-700,
+							"bankBalance":-135000,
 							"reputationPoints":-10,
 							"cash":0,
 						},
@@ -706,7 +704,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,									
-							"bankBalance":-1000,								//pamphlets profit from 500-3000											
+							"bankBalance":-200000,								//pamphlets profit from 500-3000											
 							"reputationPoints":5,
 							"cash":0,
 						},
@@ -755,7 +753,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,
-							"bankBalance":2000,
+							"bankBalance":400000,
 							"reputationPoints":-20,
 							"cash":0,
 						},
@@ -804,7 +802,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,
-							"bankBalance":2500,
+							"bankBalance":500000,
 							"reputationPoints":-10,
 							"cash":0,
 						},
@@ -853,7 +851,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,
-							"bankBalance":500,
+							"bankBalance":100000,
 							"reputationPoints":-10,
 							"cash":0,
 						}
@@ -973,7 +971,7 @@ ubsApp.decisionConfig = {
 						"id":2,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-250,
+							"bankBalance":-50000,
 							"reputationPoints":10,
 							"cash":0,
 						},
@@ -1033,7 +1031,7 @@ ubsApp.decisionConfig = {
 						"id":2,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-1000,
+							"bankBalance":-200000,
 							"reputationPoints":5,
 							"cash":0,
 						},
@@ -1082,7 +1080,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-3000,
+							"bankBalance":-600000,
 							"reputationPoints":10,
 							"cash":0,
 						},
@@ -1143,7 +1141,7 @@ ubsApp.decisionConfig = {
 						"id":2,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-500,
+							"bankBalance":-100000,
 							"reputationPoints":10,
 							"cash":0,
 						},
@@ -1232,7 +1230,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,
-							"bankBalance":1000,
+							"bankBalance":200000,
 							"reputationPoints":-10,
 							"cash":0,
 						},
@@ -1365,7 +1363,7 @@ ubsApp.decisionConfig = {
 						"id":2,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-250,
+							"bankBalance":-50000,
 							"reputationPoints":5,
 							"cash":0,
 						},
@@ -1415,7 +1413,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-1000,
+							"bankBalance":-200000,
 							"reputationPoints":10,
 							"cash":0,
 						},
@@ -1465,7 +1463,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-3500,
+							"bankBalance":-675000,
 							"reputationPoints":20,
 							"cash":0,
 						},
@@ -1476,7 +1474,7 @@ ubsApp.decisionConfig = {
 						"id":2,
 						"credit":{
 							"inventory":0,
-							"bankBalance":1500,
+							"bankBalance":300000,
 							"reputationPoints":-20,
 							"cash":0,
 						},
@@ -1515,7 +1513,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,
-							"bankBalance":1000,
+							"bankBalance":200000,
 							"reputationPoints":-10,
 							"cash":0,
 						},
@@ -1566,7 +1564,7 @@ ubsApp.decisionConfig = {
 						"id":1,
 						"credit":{
 							"inventory":0,
-							"bankBalance":-5000,
+							"bankBalance":-1000000,
 							"reputationPoints":5,
 							"cash":0,
 						},
