@@ -11,7 +11,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-500,
+				"bankBalance":-100000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -45,7 +45,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-1000,
+				"bankBalance":-200000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -79,7 +79,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-1200,
+				"bankBalance":-230000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -113,7 +113,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-800,
+				"bankBalance":-150000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -147,7 +147,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-1500,
+				"bankBalance":-300000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -180,7 +180,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-500,
+				"bankBalance":-100000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -214,7 +214,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-1000,
+				"bankBalance":-200000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -246,7 +246,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-1000,
+				"bankBalance":-200000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -279,7 +279,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-500,
+				"bankBalance":-100000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -312,7 +312,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-5000,
+				"bankBalance":-1000000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -345,7 +345,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-800,
+				"bankBalance":-150000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -378,7 +378,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-1000,
+				"bankBalance":-200000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -412,7 +412,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-500,
+				"bankBalance":-100000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -445,7 +445,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-2500,
+				"bankBalance":-500000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -478,7 +478,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-1200,
+				"bankBalance":-230000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -511,7 +511,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-2200,
+				"bankBalance":-425000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -544,7 +544,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-10000,
+				"bankBalance":-1900000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -577,7 +577,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-1300,
+				"bankBalance":-250000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -610,7 +610,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-750,
+				"bankBalance":-150000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -643,7 +643,7 @@ ubsApp.paymentConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-5000,
+				"bankBalance":-1000000,
 				"reputationPoints":0,
 				"cash":0,
 			},
