@@ -409,7 +409,7 @@ ubsApp.translation={
         "luckQuestion23":"Dirawat di rumah sakit selama 3 hari. Bayar: Rp 3.8jt",
         "luckQuestion24":"Surat ijin habis masa berlaku. denda: Rp 100rb",
         "luckQuestion25":"Tarif pajak turun. Tabungan meningkat: Rp 3.5jt.",
-        "luckQuestion26":"Mendapat subsidi pemerintah: Keuntungan: Rs 720rb",
+        "luckQuestion26":"Mendapat subsidi pemerintah: Keuntungan: Rp 720rb",
         "luckQuestion27":"Permintaan meningkat. Keuntungan: Rp 600rb",
         "luckQuestion28":"Pajak naik. Kerugian Rp. 1.5jt.",
         "luckQuestion29":"Pajak turun. Keuntungan Rp. 1.5jt.",
