@@ -605,7 +605,7 @@ ubsApp.luckConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":-23000000,
+				"bankBalance":-2300000,
 				"reputationPoints":0,
 				"cash":0,
 			},
@@ -959,7 +959,7 @@ ubsApp.luckConfig={
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
 				"inventory":0,
-				"bankBalance":1700000,
+				"bankBalance":600000,
 				"reputationPoints":20,
 				"cash":0,
 			},
