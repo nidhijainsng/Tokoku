@@ -415,7 +415,7 @@ ubsApp.translation={
         "luckQuestion28":"Pajak naik. Kerugian Rp. 1.5jt.",
         "luckQuestion29":"Pajak turun. Keuntungan Rp. 1.5jt.",
         "luckQuestion30":"Pencuri di toko! Seluruh uang kas hilang!",
-        "luckQuestion31":"Membakar toko. Kehilangan persediaan of Rp. 2.3jt",
+        "luckQuestion31":"Toko terbakar!!! Kehilangan persediaan sebesar Rp. 2.3jt",
         "luckQuestion32":"Diskon dari distributor. Penjualan: Rp 1.35jt",
         "luckQuestion33":"Hadiah Investor. Rp 2jt",
         "luckQuestion34":"Tilang. bayar Rp 100rb",
