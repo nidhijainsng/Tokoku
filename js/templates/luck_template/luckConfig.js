@@ -144,7 +144,7 @@ ubsApp.luckConfig={
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
-				"inventory":-1800,
+				"inventory":-350000,
 				"bankBalance":0,
 				"reputationPoints":0,
 				"cash":0,
@@ -191,7 +191,7 @@ ubsApp.luckConfig={
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
-				"inventory":-700,
+				"inventory":-135000,
 				"bankBalance":0,
 				"reputationPoints":0,
 				"cash":0,
@@ -238,7 +238,7 @@ ubsApp.luckConfig={
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
-				"inventory":-3800,
+				"inventory":-750000,
 				"bankBalance":0,
 				"reputationPoints":0,
 				"cash":0,
@@ -463,7 +463,7 @@ ubsApp.luckConfig={
 			// "insurance":true,
 			// "page":"decisionInsurance",                          //need a tab on luckUnlucky page to show Insurance yes/no
 			"credit":{
-				"inventory":-7800,
+				"inventory":-1500000,
 				"bankBalance":0,
 				"reputationPoints":0,
 				"cash":0,
@@ -510,7 +510,7 @@ ubsApp.luckConfig={
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
-				"inventory":-3800,
+				"inventory":-750000,
 				"bankBalance":0,
 				"reputationPoints":0,
 				"cash":0,
@@ -557,7 +557,7 @@ ubsApp.luckConfig={
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
-				"inventory":-5000,
+				"inventory":-1000000,
 				"bankBalance":0,
 				"reputationPoints":0,
 				"cash":0,
@@ -1357,7 +1357,7 @@ ubsApp.luckConfig={
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
-				"inventory":-12000,
+				"inventory":-2300000,
 				"bankBalance":0,
 				"reputationPoints":0,
 				"cash":0,
@@ -1485,7 +1485,7 @@ ubsApp.luckConfig={
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
-				"inventory":-500,
+				"inventory":-100000,
 				"bankBalance":0,
 				"reputationPoints":0,
 				"cash":0,
@@ -1830,7 +1830,7 @@ ubsApp.luckConfig={
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
 			"credit":{
-				"inventory":-2000,
+				"inventory":-400000,
 				"bankBalance":0,
 				"reputationPoints":0,
 				"cash":0,
