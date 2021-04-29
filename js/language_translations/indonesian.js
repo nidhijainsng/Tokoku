@@ -49,10 +49,10 @@ ubsApp.translation={
 
     // Monopoly main board
         // board footer caption
-        "start":"MINGGU BERTAMBAH",
+        "start":"MINGGU BERIKUTNYA",
         "purchase":"BELI",
         "sale":"JUAL",
-        "payment":"PEMBAYARAN",
+        "payment":"BAYAR",
         "decision":"KEPUTUSAN",
         "luck":"LUCK",
 
@@ -140,7 +140,7 @@ ubsApp.translation={
         //center ScoreBoard and transfer to bank
         "payDebtTitle":"BAYAR HUTANG",
         "transferToBank":"TRANSFER KAS KE BANK",
-        "payment":"PEMBAYARAN",
+        "payment":"BAYAR",
         "youCan":"KAMU BISA",
         "alternateMessage":"ATAU KAMU BISA DIBEBASKAN DARI DENDA ",
         "transferTitle":"TRANSFER",
