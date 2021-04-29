@@ -8,7 +8,7 @@ ubsApp.getPurchaseTemplate=function(templateConfig,tempVar){
 	object.credit="₹ "+userArray[playerChance].getCredit();
 	object.sliderValue=userArray[playerChance].getInventoryScore();
 	object.currentPlayerName = userArray[playerChance].getplayerName();
-	object.inventoryValue="₹ "+userArray[playerChance].getInventoryScore()*1000;
+	object.inventoryValue="₹ "+userArray[playerChance].getInventoryScore()*200000;
     object.creditLimit="₹ "+userArray[playerChance].getCreditLimit();
     object.openNextMove = ubsApp.openNextMoveAfterPurchase;
     ubsApp.startRecordingTimer(templateConfig);
@@ -22,12 +22,12 @@ ubsApp.updateInventoryLevel=function(value){
     if(parseFloat(value)<parseFloat(userArray[playerChance].getInventoryScore())){	//instead of 20 write userArray[playerChance].getInventoryScore()
         document.getElementById("mySlider").value=userArray[playerChance].getInventoryScore();	//userArray[playerChance].getInventoryScore()
         document.getElementById("percent").innerHTML=userArray[playerChance].getInventoryScore();	//userArray[playerChance].getInventoryScore()
-        document.getElementById("value").innerHTML="₹ "+userArray[playerChance].getInventoryScore()*1000;	//userArray[playerChance].getInventoryScore()*1000;
+        document.getElementById("value").innerHTML="₹ "+userArray[playerChance].getInventoryScore()*200000;	//userArray[playerChance].getInventoryScore()*1000;
         ubsApp.fillUp();
     }
     else{
         document.getElementById("percent").innerHTML=parseInt(value);
-        document.getElementById("value").innerHTML="₹ "+parseInt(value*1000);
+        document.getElementById("value").innerHTML="₹ "+parseInt(value*200000);
         ubsApp.fillUp();
     }
     
@@ -35,7 +35,7 @@ ubsApp.updateInventoryLevel=function(value){
 ubsApp.fillUp=function(){
 var temp=document.getElementById("value").innerHTML;
 document.getElementById("newInventoryLevelText").innerHTML=document.getElementById("percent").innerHTML;
-$("#newCostText").text((parseInt(temp.substring(2))-userArray[playerChance].getInventoryScore()*1000));//-userArray[playerChance].getInventoryScore()*1000;
+$("#newCostText").text((parseInt(temp.substring(2))-userArray[playerChance].getInventoryScore()*200000));//-userArray[playerChance].getInventoryScore()*1000;
 $("#updatedInventoryValue").text(temp.substring(2));
 }
 
