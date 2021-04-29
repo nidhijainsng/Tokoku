@@ -155,11 +155,11 @@ ubsApp.payOrGain=function(pageName,questionId){
             if (value < 0) {
                 isNegativeInvVal = true;
             }
-            var newInventoryLevel=parseFloat(parseFloat(userArray[playerChance].getInventoryScore())+(value/1000));
+            var newInventoryLevel=parseFloat(parseFloat(userArray[playerChance].getInventoryScore())+(value/200000));
             userArray[playerChance].setInventoryScore(newInventoryLevel);
             if(userArray[playerChance].getInventoryScore()<0){
                 done=false;
-                let difference=userArray[playerChance].getInventoryScore()*(1000);
+                let difference=userArray[playerChance].getInventoryScore()*(200000);
                 userArray[playerChance].setInventoryScore(0);
 
                 userArray[playerChance].setBankBalance(userArray[playerChance].getBankBalance()+difference);
