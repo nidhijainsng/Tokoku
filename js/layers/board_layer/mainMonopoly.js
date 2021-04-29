@@ -988,10 +988,10 @@ ubsApp.currentPlayerContents=function(){
 	if(document.getElementById("weekContent") != null)
   {
     document.getElementById("weekContent").innerHTML=userArray[playerChance].getWeeks() + "/" + ubsApp.maxNumOfWeeks;
-  document.getElementById("bankBalance").innerHTML="₹ "+userArray[playerChance].getBankBalance();
-  document.getElementById("cash").innerHTML="₹ "+userArray[playerChance].getplayerScore();
-  document.getElementById("debt").innerHTML="₹ "+userArray[playerChance].getCredit();
-  document.getElementById("inventoryValueContent").innerHTML="₹ "+ Math.round((userArray[playerChance].getInventoryScore()*ubsApp.inventoryPerPercentValue));
+  document.getElementById("bankBalance").innerHTML="₹ "+ubsApp.formatTheAmount(userArray[playerChance].getBankBalance());
+  document.getElementById("cash").innerHTML="₹ "+ubsApp.formatTheAmount(userArray[playerChance].getplayerScore());
+  document.getElementById("debt").innerHTML="₹ "+ubsApp.formatTheAmount(userArray[playerChance].getCredit());
+  document.getElementById("inventoryValueContent").innerHTML="₹ "+ubsApp.formatTheAmount( Math.round((userArray[playerChance].getInventoryScore()*ubsApp.inventoryPerPercentValue)));
   document.getElementById("inventoryContent").innerHTML=userArray[playerChance].getInventoryScore()+"%";
   document.getElementById("reputationContent").innerHTML=userArray[playerChance].getReputationPts();
   document.getElementById("advantageCardContent").innerHTML=userArray[playerChance].getAdvantageCardNumber();
@@ -1070,6 +1070,16 @@ ubsApp.initializeLeaderBoard=function(category)
 
 ubsApp.openScoreBoard = function(){
   monopoly.renderPageforBoard(monopoly.pages.SideScoreBoardPage);
+}
+
+ubsApp.formatTheAmount = function(amt){
+ 
+ var rgx = /(\d{3})(\d+)/;
+ while (rgx.test(amt)) {
+  amt = amt.toString().replace(rgx, '$1' + '.' + '$2');
+ }
+
+  return amt;
 }
 
 ubsApp.closeSideIcon = function(){
