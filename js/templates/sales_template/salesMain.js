@@ -167,7 +167,7 @@ ubsApp.reduceInventory= function(page,amount,hideScenarios,total,totalTime, star
 	let r = userArray[playerChance].getReputationPts();
 	let s = userArray[playerChance].getInventoryScore();
 
-	s-=0.85 * total * ubsApp.getMultiplier() /(1000);									//Multiplier from Inventory % to cash is 1000
+	s-=0.85 * total * ubsApp.getMultiplier() /(200000);									//Multiplier from Inventory % to cash is 1000
 	userArray[playerChance].setInventoryScore(s);
 	let userTotal = Math.round(parseFloat($("#receiptTotal").val()) * 100) / 100;
 	let cashIncreased = Math.round(total*ubsApp.getMultiplier() * 100)/ 100;
