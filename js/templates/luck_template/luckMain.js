@@ -278,19 +278,18 @@ ubsApp.payOrGain=function(pageName,questionId){
     });
 
     let message = "";
-    let header = "";
-    // Bank Balance Compare
+    let header = "";	
     if(isNegativeBankBalVal || initialBankBalance > userArray[playerChance].getBankBalance())
     {
         header = ubsApp.getTranslation("badLuckResultHeader");
-        message= ubsApp.formatMessage(ubsApp.translation["badLuckResultPopUpBankBalance"], [initialBankBalance - userArray[playerChance].getBankBalance()]);
+        message= ubsApp.formatMessage(ubsApp.translation["badLuckResultPopUpBankBalance"], ubsApp.formatTheAmount([initialBankBalance - userArray[playerChance].getBankBalance()][0]));
         ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(), questionId, initialBankBalance - userArray[playerChance].getBankBalance(),userArray[playerChance].getBankBalance(), 1, startTime, "LuckyUnluckyBankBalanceDecrease");    
         console.log("Bank Balance 1");
     }
     else if(initialBankBalance < userArray[playerChance].getBankBalance())
     {
         header = ubsApp.getTranslation("goodLuckResultHeader");
-        message= ubsApp.formatMessage(ubsApp.translation["goodLuckResultPopUpBankBalance"], [userArray[playerChance].getBankBalance() - initialBankBalance]);
+        message= ubsApp.formatMessage(ubsApp.translation["goodLuckResultPopUpBankBalance"], ubsApp.formatTheAmount([userArray[playerChance].getBankBalance() - initialBankBalance][0]));
         ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(), questionId, userArray[playerChance].getBankBalance() - initialBankBalance,userArray[playerChance].getBankBalance(), 1, startTime, "LuckyUnluckyBankBalanceIncrease");
         console.log("Bank Balance 2");
     }
@@ -299,14 +298,14 @@ ubsApp.payOrGain=function(pageName,questionId){
     if(isNegativeCashVal || initialCashBalance > userArray[playerChance].getplayerScore())
     {
         header = ubsApp.getTranslation("badLuckResultHeader");
-        message= ubsApp.formatMessage(ubsApp.translation["badLuckResultPopUpCash"], [initialCashBalance - userArray[playerChance].getplayerScore()]);
+        message= ubsApp.formatMessage(ubsApp.translation["badLuckResultPopUpCash"], ubsApp.formatTheAmount([initialCashBalance - userArray[playerChance].getplayerScore()][0]));
         ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(), questionId, initialCashBalance - userArray[playerChance].getplayerScore(),userArray[playerChance].getplayerScore(), 1, startTime, "LuckyUnluckyCashDecrease");
          console.log("Cash Balance 1");
     }
     else if(initialCashBalance < userArray[playerChance].getplayerScore())
     {
         header = ubsApp.getTranslation("goodLuckResultHeader");
-        message= ubsApp.formatMessage(ubsApp.translation["goodLuckResultPopUpCash"], [userArray[playerChance].getplayerScore() - initialCashBalance]);
+        message= ubsApp.formatMessage(ubsApp.translation["goodLuckResultPopUpCash"], ubsApp.formatTheAmount([userArray[playerChance].getplayerScore() - initialCashBalance][0]));
         ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(), questionId, userArray[playerChance].getplayerScore() - initialCashBalance,userArray[playerChance].getplayerScore(), 1, startTime, "LuckyUnluckyCashIncrease");
          console.log("Cash Balance 2");
     }
@@ -331,7 +330,7 @@ ubsApp.payOrGain=function(pageName,questionId){
     if(isNegativeInvVal || initialInventory > userArray[playerChance].getInventoryScore())
     {
         header = ubsApp.getTranslation("badLuckResultHeader");
-        message= ubsApp.formatMessage(ubsApp.translation["badLuckResultPopUpInv"], [initialInventory - userArray[playerChance].getInventoryScore()]);
+        message= ubsApp.formatMessage(ubsApp.translation["badLuckResultPopUpInv"], ubsApp.formatTheAmount([initialInventory - userArray[playerChance].getInventoryScore()][0]));
         ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(), questionId, initialInventory - userArray[playerChance].getInventoryScore(),userArray[playerChance].getInventoryScore(), 1, startTime, "LuckyUnluckyInventoryDecrease");
         console.log("inventory points 1");
     }
