@@ -330,7 +330,7 @@ ubsApp.payOrGain=function(pageName,questionId){
     if(isNegativeInvVal || initialInventory > userArray[playerChance].getInventoryScore())
     {
         header = ubsApp.getTranslation("badLuckResultHeader");
-        message= ubsApp.formatMessage(ubsApp.translation["badLuckResultPopUpInv"], ubsApp.formatTheAmount([initialInventory - userArray[playerChance].getInventoryScore()][0]));
+        message= ubsApp.formatMessage(ubsApp.translation["badLuckResultPopUpInv"],initialInventory - userArray[playerChance].getInventoryScore());
         ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(), questionId, initialInventory - userArray[playerChance].getInventoryScore(),userArray[playerChance].getInventoryScore(), 1, startTime, "LuckyUnluckyInventoryDecrease");
         console.log("inventory points 1");
     }
