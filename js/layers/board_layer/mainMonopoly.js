@@ -1074,7 +1074,7 @@ ubsApp.openScoreBoard = function(){
 
 ubsApp.formatTheAmount = function(amt){
  
- var rgx = /(\d{3})(\d+)/;
+ var rgx = /(\d+)(\d{3})/;
  while (rgx.test(amt)) {
   amt = amt.toString().replace(rgx, '$1' + '.' + '$2');
  }
