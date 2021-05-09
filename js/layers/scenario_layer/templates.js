@@ -580,7 +580,7 @@ ubsApp.calculatorTemplate = '<script type="text/javascript" src="js/calculator.j
 // '           <div  style="padding:10px;position: absolute;top: 48%;left:0%;">CURRENT <br>INVENTORY<br> LEVEL</div>'+
 // '           <div id="percent" style="{{style}}">{{sliderValue}}%</div>'+
 // '           <input type="range" value="{{sliderValue}}" id="mySlider"  oninput="ubsApp.updateInventoryLevel(this.value)">'+
-// '           <div id="value" style="{{style}}">Rs. {{inventoryValue}}</div>'+
+// '           <div id="value" style="{{style}}">Rp. {{inventoryValue}}</div>'+
 // '           <div style="position:absolute; bottom:3%;left:14.5%; font-weight:600;">'+
 // '               INVENTORY'+
 // '           </div>'+
@@ -622,7 +622,7 @@ ubsApp.calculatorTemplate = '<script type="text/javascript" src="js/calculator.j
 //'           <div class="currentInventoryTitle">{{current}} <br>{{inventoryTitle}}<br> {{level}}</div>'+
 //'           <div id="percent">{{sliderValue}}%</div>'+
 //'           <input type="range" value="{{sliderValue}}" id="mySlider"  oninput="ubsApp.updateInventoryLevel(this.value)">'+
-//'           <div id="value">Rs. {{inventoryValue}}</div>'+
+//'           <div id="value">Rp. {{inventoryValue}}</div>'+
 //'           <div class="purchaseInventoryLabel">'+
 //'               {{inventoryTitle}}'+
 //'           </div>'+
