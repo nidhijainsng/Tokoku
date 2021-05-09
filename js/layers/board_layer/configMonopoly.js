@@ -282,7 +282,7 @@ monopoly.origpages = {
         //     "templateType":"static",
         //     "id":"inventoryValueContent",
         //     "style":"background-color:yellow;border:1px solid black; padding:1px;",
-        //     "src":"Rs. 250,000"
+        //     "src":"Rp. 250,000"
         // },
        /* {
             "templateId":1,
