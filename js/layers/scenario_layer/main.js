@@ -505,7 +505,7 @@ ubsApp.startRecordingTimer = function(templateConfig){
 
 //         interval=window.setInterval(function () {
 //         sc = sc-1;
-//         element.innerHTML = "Rs."+sc;
+//         element.innerHTML = "Rp."+sc;
 //         if(sc==target_score)
 //             clearInterval(interval);
 //         }, parseInt(amount)/1000000);
@@ -515,7 +515,7 @@ ubsApp.startRecordingTimer = function(templateConfig){
 
 //             interval=window.setInterval(function () {
 //             sc = sc+1;
-//             element.innerHTML = "Rs."+sc;
+//             element.innerHTML = "Rp."+sc;
 //             if(sc==target_score)
 //                 clearInterval(interval);
 //             }, parseInt(amount)/1000000);
@@ -540,7 +540,7 @@ ubsApp.startRecordingTimer = function(templateConfig){
 // 			userArray[playerChance].setplayerScore(target_score);
 // 			clearInterval(interval);
 // 		}
-// 		element.innerHTML = "Rs."+target_score;
+// 		element.innerHTML = "Rp."+target_score;
 //         }, target_score/1000000);
 //     }
 //     else if(amount>0)
@@ -553,7 +553,7 @@ ubsApp.startRecordingTimer = function(templateConfig){
 // 				userArray[playerChance].setplayerScore(target_score);
 // 				clearInterval(interval);
 // 			}
-// 			element.innerHTML = "Rs."+target_score;
+// 			element.innerHTML = "Rp."+target_score;
 //             }, target_score/1000000);
 //     }
 //     //ubsApp.addScore(parseInt(amount));
