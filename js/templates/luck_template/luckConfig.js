@@ -10,7 +10,7 @@ ubsApp.luckConfig={
 			"templateType":"luck",
 			"scenario":"{{luckQuestion1}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 f",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":0,
