@@ -8,7 +8,7 @@ ubsApp.paymentConfig={
 			"scenario":"{{paymentQuestion1}}",
 			"scenarioName":"paymentScenario1",  
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-100000,
@@ -42,7 +42,7 @@ ubsApp.paymentConfig={
 			"templateType":"pay",
 			"scenario":"{{paymentQuestion2}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-200000,
@@ -76,7 +76,7 @@ ubsApp.paymentConfig={
 			"templateType":"pay",
 			"scenario":"{{paymentQuestion3}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-230000,
@@ -110,7 +110,7 @@ ubsApp.paymentConfig={
 			"templateType":"pay",
 			"scenario":"{{paymentQuestion4}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-150000,
@@ -144,7 +144,7 @@ ubsApp.paymentConfig={
 			"templateType":"pay",
 			"scenario":"{{paymentQuestion5}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-300000,
@@ -177,7 +177,7 @@ ubsApp.paymentConfig={
 			"templateType":"pay",
 			"scenario":"{{paymentQuestion6}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-100000,
@@ -211,7 +211,7 @@ ubsApp.paymentConfig={
 			"payTitle":"{{payTitle}}",
 			"scenario":"{{paymentQuestion7}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-200000,
@@ -243,7 +243,7 @@ ubsApp.paymentConfig={
 			"templateType":"pay",
 			"scenario":"{{paymentQuestion8}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-200000,
@@ -276,7 +276,7 @@ ubsApp.paymentConfig={
 			"templateType":"pay",
 			"scenario":"{{paymentQuestion9}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-100000,
@@ -309,7 +309,7 @@ ubsApp.paymentConfig={
 			"templateType":"pay",
 			"scenario":"{{paymentQuestion10}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-1000000,
@@ -342,7 +342,7 @@ ubsApp.paymentConfig={
 			"templateType":"pay",
 			"scenario":"{{paymentQuestion11}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-150000,
@@ -375,7 +375,7 @@ ubsApp.paymentConfig={
 			"templateType":"pay",
 			"scenario":"{{paymentQuestion12}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-200000,
@@ -409,7 +409,7 @@ ubsApp.paymentConfig={
 			"templateType":"pay",
 			"scenario":"{{paymentQuestion13}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-100000,
@@ -442,7 +442,7 @@ ubsApp.paymentConfig={
 			"templateType":"pay",
 			"scenario":"{{paymentQuestion14}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-500000,
@@ -475,7 +475,7 @@ ubsApp.paymentConfig={
 			"templateType":"pay",
 			"scenario":"{{paymentQuestion15}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-230000,
@@ -508,7 +508,7 @@ ubsApp.paymentConfig={
 			"templateType":"pay",
 			"scenario":"{{paymentQuestion16}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-425000,
@@ -541,7 +541,7 @@ ubsApp.paymentConfig={
 			"templateType":"pay",
 			"scenario":"{{paymentQuestion17}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-1900000,
@@ -574,7 +574,7 @@ ubsApp.paymentConfig={
 			"templateType":"pay",
 			"scenario":"{{paymentQuestion18}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-250000,
@@ -607,7 +607,7 @@ ubsApp.paymentConfig={
 			"templateType":"pay",
 			"scenario":"{{paymentQuestion19}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-150000,
@@ -640,7 +640,7 @@ ubsApp.paymentConfig={
 			"templateType":"pay",
 			"scenario":"{{paymentQuestion20}}",//question Key
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
-			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rs",
+			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
 				"inventory":0,
 				"bankBalance":-1000000,
