@@ -1313,7 +1313,7 @@ ubsApp.luckConfig={
 				"inventory":0,
 				"bankBalance":0,
 				"reputationPoints":0,
-				"cash":-350000,
+				"cash":-200000,
 			},
 			"resultpage":"quizQ2",
 			"category":"banking",
