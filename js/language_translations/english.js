@@ -16,7 +16,6 @@ ubsApp.translation={
         "documentSideBar":"Document",
         "inventorySideBar":"Inventory",
         "meritSideBar":"Merit",
-        "Rs": "₹",
         //This is where new addition started
         "inventoryTitle":"INVENTORY",
         "weekTitle":"WEEK",

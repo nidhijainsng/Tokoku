@@ -133,15 +133,15 @@ monopoly.sideScoreBoardTemplate= '<div class="mainBoardoverlay">'+
 '    </div>'+
 '    <div class="sideScoreBoardRow">'+
 '        <div class="sideScoreBoardCol">{{bankBalanceTitle}}:</div>'+
-'        <span id="bankBalance" class="sideScoreBoardCol">₹ {{bankBalanceAmount}}</span>'+
+'        <span id="bankBalance" class="sideScoreBoardCol">Rp {{bankBalanceAmount}}</span>'+
 '    </div>'+
 '    <div class="sideScoreBoardRow">'+
 '        <div class="sideScoreBoardCol">{{cashTitle}}:</div>'+
-'        <span class="sideScoreBoardCol" id="cash">₹ {{cashAmount}}</span>'+
+'        <span class="sideScoreBoardCol" id="cash">Rp {{cashAmount}}</span>'+
 '    </div>'+
 '    <div class="sideScoreBoardRow">'+
 '        <div class="sideScoreBoardCol">{{debtTitle}}:</div>'+
-'        <span id="debt" class="sideScoreBoardCol">₹ {{debtAmount}}</span>'+
+'        <span id="debt" class="sideScoreBoardCol">Rp {{debtAmount}}</span>'+
 '    </div>'+
 '    <div class="sideScoreBoardRow">'+
 '       <button class="sideScoreBoardCol sideScoreBoardButton" style="font-size: 1.1vmax;" onclick="ubsApp.openTransferToBank()">{{transferTitle}}</button>'+

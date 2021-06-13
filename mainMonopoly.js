@@ -804,13 +804,13 @@ ubsApp.confirmEndGame=function(){
   	    playerConfig.widthOfEachPlayer = (100 / numplayers) - 3;
   	    let player = userArray[i];
   	    playerConfig.playerColor = player.getplayerColor();
-        playerConfig.currentWeekCash = "₹ "+ player.getplayerScore();
-        playerConfig.currentWeekBankBalance = "₹ "+ player.getBankBalance();
+        playerConfig.currentWeekCash = "Rp "+ player.getplayerScore();
+        playerConfig.currentWeekBankBalance = "Rp "+ player.getBankBalance();
         playerConfig.currentWeekReputationPts = player.getReputationPts();
         playerConfig.currentWeekCredit = player.getCredit();
         playerConfig.currentWeekAdvantageCard = player.getAdvantageCardNumber();
         playerConfig.userName = player.getplayerName();
-        playerConfig.currentInventory = "₹ "+ player.getInventoryScore() * ubsApp.inventoryPerPercentValue + " (" + player.getInventoryScore() + "%" + ")";
+        playerConfig.currentInventory = "Rp "+ player.getInventoryScore() * ubsApp.inventoryPerPercentValue + " (" + player.getInventoryScore() + "%" + ")";
         if(i > 0) {
             playerConfig.showBorder = true;
         }
@@ -988,10 +988,10 @@ ubsApp.currentPlayerContents=function(){
 	if(document.getElementById("weekContent") != null)
   {
     document.getElementById("weekContent").innerHTML=userArray[playerChance].getWeeks() + "/" + ubsApp.maxNumOfWeeks;
-  document.getElementById("bankBalance").innerHTML="₹ "+userArray[playerChance].getBankBalance();
-  document.getElementById("cash").innerHTML="₹ "+userArray[playerChance].getplayerScore();
-  document.getElementById("debt").innerHTML="₹ "+userArray[playerChance].getCredit();
-  document.getElementById("inventoryValueContent").innerHTML="₹ "+ Math.round((userArray[playerChance].getInventoryScore()*ubsApp.inventoryPerPercentValue));
+  document.getElementById("bankBalance").innerHTML="Rp "+userArray[playerChance].getBankBalance();
+  document.getElementById("cash").innerHTML="Rp "+userArray[playerChance].getplayerScore();
+  document.getElementById("debt").innerHTML="Rp "+userArray[playerChance].getCredit();
+  document.getElementById("inventoryValueContent").innerHTML="Rp "+ Math.round((userArray[playerChance].getInventoryScore()*ubsApp.inventoryPerPercentValue));
   document.getElementById("inventoryContent").innerHTML=userArray[playerChance].getInventoryScore()+"%";
   document.getElementById("reputationContent").innerHTML=userArray[playerChance].getReputationPts();
   document.getElementById("advantageCardContent").innerHTML=userArray[playerChance].getAdvantageCardNumber();

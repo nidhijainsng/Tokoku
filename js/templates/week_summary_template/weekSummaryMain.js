@@ -8,14 +8,14 @@ ubsApp.getWeekSummaryTemplate = function(templateConfig, tempVar){
     templateConfig.lastWeekCredit = userArray[playerChance].getLastWeekCredit();
     templateConfig.lastWeekAdvantageCard = userArray[playerChance].getLastWeekAdvantageCardNumber();
 
-    templateConfig.currentWeekCash = "₹ "+ (userArray[playerChance].getplayerScore() - templateConfig.lastWeekCash);
-    templateConfig.currentWeekBankBalance = "₹ "+ (userArray[playerChance].getBankBalance() - templateConfig.lastWeekBankBalance);
+    templateConfig.currentWeekCash = "Rp "+ (userArray[playerChance].getplayerScore() - templateConfig.lastWeekCash);
+    templateConfig.currentWeekBankBalance = "Rp "+ (userArray[playerChance].getBankBalance() - templateConfig.lastWeekBankBalance);
     templateConfig.currentWeekReputationPts = userArray[playerChance].getReputationPts() - templateConfig.lastWeekReputationPts;
     templateConfig.currentWeekCredit = userArray[playerChance].getCredit() - templateConfig.lastWeekCredit;
     templateConfig.currentWeekAdvantageCard = userArray[playerChance].getAdvantageCardNumber() - templateConfig.lastWeekAdvantageCard ;
     templateConfig.userName = userArray[playerChance].getplayerName();
     templateConfig.currentInventory = (userArray[playerChance].getInventoryScore() - userArray[playerChance].getLastWeekInventoryScore()) + "%";
-    templateConfig.currentInventoryValue = "₹ "+ ((userArray[playerChance].getInventoryScore() - userArray[playerChance].getLastWeekInventoryScore()) * ubsApp.inventoryPerPercentValue);
+    templateConfig.currentInventoryValue = "Rp "+ ((userArray[playerChance].getInventoryScore() - userArray[playerChance].getLastWeekInventoryScore()) * ubsApp.inventoryPerPercentValue);
     templateConfig.header = ubsApp.getTranslation("ScoreSummary");
 
     if(ubsApp.openCurrentPlayerConfig && ubsApp.openCurrentPlayerConfig.header) {
