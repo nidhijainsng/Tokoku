@@ -155,7 +155,7 @@ ubsApp.renderPage = function(page) {
 	// if(answerselected!=0)
 	// {
 	// 	ubsApp.addScore(parseInt(answerselected));
-	// 	document.getElementById("lastBalanceContent").innerHTML="₹"+userArray[playerChance].getplayerScore();
+	// 	document.getElementById("lastBalanceContent").innerHTML="Rp"+userArray[playerChance].getplayerScore();
 	// 	answerselected=0;
 	// }	
 	// if(inventoryToBeUpdated!=0)

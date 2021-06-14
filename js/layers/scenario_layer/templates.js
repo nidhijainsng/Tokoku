@@ -751,11 +751,11 @@ ubsApp.purchaseTemplate = '<div class="container-fluid mainPurchaseDiv">'+
 '                </div>'+
 '                <div class="row" style="padding: 1%;">'+
 '                    <div class="col-md-6 col-lg-6">{{inventoryValueTitle}}:</div>'+
-'                    <div class="col-md-6 col-lg-6" style="text-align: right;">₹ <span id="updatedInventoryValue"  style="width: 45%;    color: black;" ></span></div>'+
+'                    <div class="col-md-6 col-lg-6" style="text-align: right;">Rp <span id="updatedInventoryValue"  style="width: 45%;    color: black;" ></span></div>'+
 '                </div>'+
 '                <div class="row" style="padding: 1%;">'+
 '                    <div class="col-md-6 col-lg-6">{{costTitle}}:</div>'+
-'                    <div class="col-md-6 col-lg-6" style="text-align: right;">₹ <span  id="newCostText"  style="width: 45%; color: black;" ></span></div>'+
+'                    <div class="col-md-6 col-lg-6" style="text-align: right;">Rp <span  id="newCostText"  style="width: 45%; color: black;" ></span></div>'+
 '                </div>'+
 '                <div id="parent1" class="row" style="padding: 1%;">'+
 '                    <div class="col-md-6 col-lg-6">{{payByTitle}}:</div>'+
@@ -862,26 +862,26 @@ ubsApp.payOffTemplate='<div style="width:100%; height:100%; background-color:rgb
 '                               <tr>'+
 '                           <td><span class="payOffSubTitleLeft">'+
 '                               {{cashTitle}} '+
-'                               <span id="cashValue" >₹ {{cash}}</span>'+
+'                               <span id="cashValue" >Rp {{cash}}</span>'+
 '                           </span></td>'+
 '                           <td><span class="payOffSubTitleRight">'+
 '                               {{bankBalanceTitle}} '+
-'                               <span id="bankBalanceValue">₹ {{bankBalance}}</span>'+
+'                               <span id="bankBalanceValue">Rp {{bankBalance}}</span>'+
 '                           </span></td></tr></table></center>'+
 '                      </div>'+
 '                      <div style="margin: auto;     width: fit-content;">'+
 '                      {{#if #payOff}}'+
 '                           <div style="    margin-bottom: 3%;">'+
 '                               <span class="payOffSubTitleLeft">{{debtAmountTitle}}:</span>'+
-'                                    <span class="payOffDebtAmountValue"> ₹ <span id="debtValue">{{debt}}<span>'+
+'                                    <span class="payOffDebtAmountValue"> Rp <span id="debtValue">{{debt}}<span>'+
 '                               </span><br>'+
 '                           </div>'+
 '                      {{else}}{{/if}}'+
 '                      <span class="payOffSubTitleLeft">'+
 '                           {{#if payOff}}'+
-'                               {{amountToPayTitle}} ₹ '+
+'                               {{amountToPayTitle}} Rp '+
 '                           {{else}}'+
-'                               {{amountToTransferTitle}} ₹ '+
+'                               {{amountToTransferTitle}} Rp '+
 '                           {{/if}}'+
 '                      </span>'+
 '                      <span class="payOffAmountToPayValue">'+
@@ -889,7 +889,7 @@ ubsApp.payOffTemplate='<div style="width:100%; height:100%; background-color:rgb
 '                      </span>'+
 '                      {{#if payOff}}'+
 '                           <br><br><span class="payOffSubTitleLeft">'+
-'                               {{modeOfPaymentTitle}} ₹ '+
+'                               {{modeOfPaymentTitle}} Rp '+
 '                           </span>'+
 '                      {{/if}}'+
 '                      {{#if payOff}}'+
@@ -991,9 +991,9 @@ ubsApp.centerScoreBoardTemplate='<div class="centerScoreBoardMainContainer">'+
 //'               : <br>'+
 //'           </div>'+
 //'           <div class="col-md-5">'+
-//'               <span>₹ {{balance}}</span><br>'+
-//'               <span>₹ {{cash}}</span><br>'+
-//'               <span>₹ {{debt}}</span><br>'+
+//'               <span>Rp {{balance}}</span><br>'+
+//'               <span>Rp {{cash}}</span><br>'+
+//'               <span>Rp {{debt}}</span><br>'+
 //'           </div>'+
 //'       </div>'+
 //'       <div class="row" id="rightInfo">'+
@@ -1036,11 +1036,11 @@ ubsApp.centerScoreBoardTemplate='<div class="centerScoreBoardMainContainer">'+
 // '                </fieldset>'+
 // '            </div>'+
 // '            <div id="insurancePayment" class="row">'+
-// '                <label for="annualPremium" class="insuranceValue">{{premium}}(₹)</label>'+
+// '                <label for="annualPremium" class="insuranceValue">{{premium}}(Rp)</label>'+
 // '                <input type="number" id="annualPremium" name="premium" value="0" readonly >'+
 // '            </div>'+
 // '            <div>'+
-// '                <label for="annualPremium" class="insuranceValue">{{sumAssured}}(₹)</label>'+
+// '                <label for="annualPremium" class="insuranceValue">{{sumAssured}}(Rp)</label>'+
 // '                <input type="number" id="sumAssured" name="sum"  value="0" readonly >'+
 // '            </div>'+
 // '            <br>'+
@@ -1122,11 +1122,11 @@ ubsApp.insuranceTemplate = '<div id="decisonMaking">'+
 '                </fieldset>'+
 '            </div> <div style="display: inline-block;">'+
 '            <div id="insurancePayment" style="width: 45%;float: left;" class="row">'+
-'                <label for="annualPremium" class="insuranceValue">{{premium}}(₹)</label>'+
+'                <label for="annualPremium" class="insuranceValue">{{premium}}(Rp)</label>'+
 '                <input style="width: 30%;" type="number" id="annualPremium" name="premium" value="0" readonly >'+
 '            </div>'+
 '            <div style="width: 45%;float: right;margin-top: 2%;">'+
-'                <label for="annualPremium" class="insuranceValue">{{sumAssured}}(₹)</label>'+
+'                <label for="annualPremium" class="insuranceValue">{{sumAssured}}(Rp)</label>'+
 '                <input style="width: 30%;" type="number" id="sumAssured" name="sum"  value="0" readonly >'+
 '            </div> </div>'+
 '            <br>'+
@@ -1149,15 +1149,15 @@ ubsApp.insuranceTemplate = '<div id="decisonMaking">'+
 '<img src="{{gameLogo}}" class="decisionGameLogoImage">' +
 '       <div class="row" id="leftInfo">'+
 '           <div class="col-md-10">'+
-'               <span id="decisionBankBalance" style="word-spacing: 1.5vmax;display:block">{{bankBalanceTitle}} ₹{{balance}}</span> <br>'+
-'               <span id="decisionBankBalance" style="word-spacing: 10vmax;display:block">{{cashTitle}} ₹{{cash}}</span>      <br>'+
-'               <span id="decisionBankBalance" style="word-spacing: 10vmax;display:block"">{{debtTitle}} ₹{{debt}}</span>       <br>'+
+'               <span id="decisionBankBalance" style="word-spacing: 1.5vmax;display:block">{{bankBalanceTitle}} Rp{{balance}}</span> <br>'+
+'               <span id="decisionBankBalance" style="word-spacing: 10vmax;display:block">{{cashTitle}} Rp{{cash}}</span>      <br>'+
+'               <span id="decisionBankBalance" style="word-spacing: 10vmax;display:block"">{{debtTitle}} Rp{{debt}}</span>       <br>'+
 '           </div>'+
 '       </div>'+
 '       <div class="row" id="rightInfo" style="position: relative;">'+
 '           <div class="col-md-6" >'+
 '               <span id="decisionBankBalance" style="word-spacing: 7.5vmax;display:block">{{inventoryTitle}} {{inventory}}%</span> <br>'+
-'               <span id="decisionBankBalance" style="word-spacing: 2.5vmax;display:block">{{invVal}} ₹{{inventoryValue}}</span>      <br>'+
+'               <span id="decisionBankBalance" style="word-spacing: 2.5vmax;display:block">{{invVal}} Rp{{inventoryValue}}</span>      <br>'+
 '               <span id="decisionBankBalance" style="word-spacing: 2.5vmax;display:block">{{repPoints}} {{reputationPts}}</span>       <br>'+
 '           </div>'+
 '       <div class="decisionHelpButtons" onclick="ubsApp.startHelp(\'decisionHelp\')" style="position: absolute;right: 10%;bottom: 20%;"></div>'+
@@ -1194,15 +1194,15 @@ ubsApp.decisionTemplate = '<div id="decisonMaking">'+
 '<img src="{{gameLogo}}" class="decisionGameLogoImage">' +
 '       <div class="row" id="leftInfo">'+
 '           <div class="col-md-12" style="width:80%;">'+
-'               <span id="decisionBankBalance" style="word-spacing: 0.2vmax;display:block">{{bankBalanceTitle}} ₹{{balance}}</span> <br>'+
-'               <span id="decisionBankBalance" style="word-spacing: 8vmax;display:block">{{cashTitle}} ₹{{cash}}</span>      <br>'+
-'               <span id="decisionBankBalance" style="word-spacing: 8vmax;display:block"">{{debtTitle}} ₹{{debt}}</span>       <br>'+
+'               <span id="decisionBankBalance" style="word-spacing: 0.2vmax;display:block">{{bankBalanceTitle}} Rp{{balance}}</span> <br>'+
+'               <span id="decisionBankBalance" style="word-spacing: 8vmax;display:block">{{cashTitle}} Rp{{cash}}</span>      <br>'+
+'               <span id="decisionBankBalance" style="word-spacing: 8vmax;display:block"">{{debtTitle}} Rp{{debt}}</span>       <br>'+
 '           </div>'+
 '       </div>'+
 '       <div class="row" id="rightInfo" style="position: relative;">'+
 '           <div class="col-md-12" style="width:45%;">'+
 '               <span id="decisionBankBalance" style="word-spacing: 7.5vmax;display:block">{{inventoryTitle}} {{inventory}}%</span> <br>'+
-'               <span id="decisionBankBalance" style="word-spacing: 2.5vmax;display:block">{{invVal}} ₹{{inventoryValue}}</span>      <br>'+
+'               <span id="decisionBankBalance" style="word-spacing: 2.5vmax;display:block">{{invVal}} Rp{{inventoryValue}}</span>      <br>'+
 '               <span id="decisionBankBalance" style="word-spacing: 2.5vmax;display:block">{{repPoints}} {{reputationPts}}</span>       <br>'+
 '           </div>'+
 '       <div class="decisionHelpButtons" onclick="ubsApp.startHelp(\'decisionHelp\')" style="position: absolute;right: 10%;bottom: 20%;"></div>'+

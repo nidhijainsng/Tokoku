@@ -3,13 +3,13 @@ let numberOfPaymentModes=1;
 ubsApp.getPurchaseTemplate=function(templateConfig,tempVar){
 	var object={};
 
-	object.bankBalance="₹ "+userArray[playerChance].getBankBalance();
-	object.cash="₹ "+userArray[playerChance].getplayerScore();
-	object.credit="₹ "+userArray[playerChance].getCredit();
+	object.bankBalance="Rp "+userArray[playerChance].getBankBalance();
+	object.cash="Rp "+userArray[playerChance].getplayerScore();
+	object.credit="Rp "+userArray[playerChance].getCredit();
 	object.sliderValue=userArray[playerChance].getInventoryScore();
 	object.currentPlayerName = userArray[playerChance].getplayerName();
-	object.inventoryValue="₹ "+userArray[playerChance].getInventoryScore()*200000;
-    object.creditLimit="₹ "+userArray[playerChance].getCreditLimit();
+	object.inventoryValue="Rp "+userArray[playerChance].getInventoryScore()*200000;
+    object.creditLimit="Rp "+userArray[playerChance].getCreditLimit();
     object.openNextMove = ubsApp.openNextMoveAfterPurchase;
     ubsApp.startRecordingTimer(templateConfig);
     templateConfig=$.extend(templateConfig,object);
@@ -22,12 +22,12 @@ ubsApp.updateInventoryLevel=function(value){
     if(parseFloat(value)<parseFloat(userArray[playerChance].getInventoryScore())){	//instead of 20 write userArray[playerChance].getInventoryScore()
         document.getElementById("mySlider").value=userArray[playerChance].getInventoryScore();	//userArray[playerChance].getInventoryScore()
         document.getElementById("percent").innerHTML=userArray[playerChance].getInventoryScore();	//userArray[playerChance].getInventoryScore()
-        document.getElementById("value").innerHTML="₹ "+userArray[playerChance].getInventoryScore()*200000;	//userArray[playerChance].getInventoryScore()*1000;
+        document.getElementById("value").innerHTML="Rp "+userArray[playerChance].getInventoryScore()*200000;	//userArray[playerChance].getInventoryScore()*1000;
         ubsApp.fillUp();
     }
     else{
         document.getElementById("percent").innerHTML=parseInt(value);
-        document.getElementById("value").innerHTML="₹ "+parseInt(value*200000);
+        document.getElementById("value").innerHTML="Rp "+parseInt(value*200000);
         ubsApp.fillUp();
     }
     
@@ -151,10 +151,10 @@ else{
         userArray[playerChance].setBankBalance(bankBalanceChanged);
         userArray[playerChance].setCredit(creditChanged);
 
-        document.getElementById("bankBalanceValue").innerHTML="₹ "+userArray[playerChance].getBankBalance();
-        document.getElementById("cashValue").innerHTML="₹ "+userArray[playerChance].getplayerScore();
-        document.getElementById("creditValue").innerHTML="₹ "+userArray[playerChance].getCredit();
-        document.getElementById("creditLimitValue").innerHTML="₹ "+userArray[playerChance].getCreditLimit();
+        document.getElementById("bankBalanceValue").innerHTML="Rp "+userArray[playerChance].getBankBalance();
+        document.getElementById("cashValue").innerHTML="Rp "+userArray[playerChance].getplayerScore();
+        document.getElementById("creditValue").innerHTML="Rp "+userArray[playerChance].getCredit();
+        document.getElementById("creditLimitValue").innerHTML="Rp "+userArray[playerChance].getCreditLimit();
 
         if(!offlinePurchaseClicked)
             ubsApp.nextMove();
