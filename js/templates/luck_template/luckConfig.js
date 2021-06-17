@@ -1485,8 +1485,8 @@ ubsApp.luckConfig={
 			"positiveMsg":"Congratulations!! You answered correctly.\\n Your fine is Waived off.",
 			"negativeMsg":"Oops!! You answeres incorrectly.\\n  You have to pay the fine of 1000 Rp",
 			"credit":{
-				"inventory":-100000,
-				"bankBalance":0,
+				"inventory":0,
+				"bankBalance":-100000,
 				"reputationPoints":0,
 				"cash":0,
 			},
