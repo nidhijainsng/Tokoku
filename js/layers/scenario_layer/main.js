@@ -463,6 +463,15 @@ ubsApp.formatMessage = function(string, replacements){
     String.format.apply(string, replacements);
 }
 
+ubsApp.formatMessageLuck = function(string, replacements){
+	
+    return string.replace(/\{(\d+)\}/g,replacements);
+
+
+    // Or, if prototype code above...
+    String.format.apply(string, replacements);
+}
+
 
 ubsApp.initializeUbsPages = function() {
     ubsApp.pages= {
