@@ -282,14 +282,14 @@ ubsApp.payOrGain=function(pageName,questionId){
     if(isNegativeBankBalVal || initialBankBalance > userArray[playerChance].getBankBalance())
     {
         header = ubsApp.getTranslation("badLuckResultHeader");
-        message= ubsApp.formatMessage(ubsApp.translation["badLuckResultPopUpBankBalance"], ubsApp.formatTheAmount([initialBankBalance - userArray[playerChance].getBankBalance()][0]));
+        message= ubsApp.formatMessageLuck(ubsApp.translation["badLuckResultPopUpBankBalance"], ubsApp.formatTheAmount([initialBankBalance - userArray[playerChance].getBankBalance()][0]));
         ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(), questionId, initialBankBalance - userArray[playerChance].getBankBalance(),userArray[playerChance].getBankBalance(), 1, startTime, "LuckyUnluckyBankBalanceDecrease");    
         console.log("Bank Balance 1");
     }
     else if(initialBankBalance < userArray[playerChance].getBankBalance())
     {
         header = ubsApp.getTranslation("goodLuckResultHeader");
-        message= ubsApp.formatMessage(ubsApp.translation["goodLuckResultPopUpBankBalance"], ubsApp.formatTheAmount([userArray[playerChance].getBankBalance() - initialBankBalance][0]));
+        message= ubsApp.formatMessageLuck(ubsApp.translation["goodLuckResultPopUpBankBalance"], ubsApp.formatTheAmount([userArray[playerChance].getBankBalance() - initialBankBalance][0]));
         ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(), questionId, userArray[playerChance].getBankBalance() - initialBankBalance,userArray[playerChance].getBankBalance(), 1, startTime, "LuckyUnluckyBankBalanceIncrease");
         console.log("Bank Balance 2");
     }
@@ -298,14 +298,14 @@ ubsApp.payOrGain=function(pageName,questionId){
     if(isNegativeCashVal || initialCashBalance > userArray[playerChance].getplayerScore())
     {
         header = ubsApp.getTranslation("badLuckResultHeader");
-        message= ubsApp.formatMessage(ubsApp.translation["badLuckResultPopUpCash"], ubsApp.formatTheAmount([initialCashBalance - userArray[playerChance].getplayerScore()][0]));
+        message= ubsApp.formatMessageLuck(ubsApp.translation["badLuckResultPopUpCash"], ubsApp.formatTheAmount([initialCashBalance - userArray[playerChance].getplayerScore()][0]));
         ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(), questionId, initialCashBalance - userArray[playerChance].getplayerScore(),userArray[playerChance].getplayerScore(), 1, startTime, "LuckyUnluckyCashDecrease");
          console.log("Cash Balance 1");
     }
     else if(initialCashBalance < userArray[playerChance].getplayerScore())
     {
         header = ubsApp.getTranslation("goodLuckResultHeader");
-        message= ubsApp.formatMessage(ubsApp.translation["goodLuckResultPopUpCash"], ubsApp.formatTheAmount([userArray[playerChance].getplayerScore() - initialCashBalance][0]));
+        message= ubsApp.formatMessageLuck(ubsApp.translation["goodLuckResultPopUpCash"], ubsApp.formatTheAmount([userArray[playerChance].getplayerScore() - initialCashBalance][0]));
         ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(), questionId, userArray[playerChance].getplayerScore() - initialCashBalance,userArray[playerChance].getplayerScore(), 1, startTime, "LuckyUnluckyCashIncrease");
          console.log("Cash Balance 2");
     }
@@ -314,14 +314,14 @@ ubsApp.payOrGain=function(pageName,questionId){
     if(isNegativeRepPtVal || initialReputationPoints > userArray[playerChance].getReputationPts())
     {
         header = ubsApp.getTranslation("badLuckResultHeader");
-        message= ubsApp.formatMessage(ubsApp.translation["badLuckResultPopUpRepPt"], [initialReputationPoints - userArray[playerChance].getReputationPts()]);
+        message= ubsApp.formatMessageLuck(ubsApp.translation["badLuckResultPopUpRepPt"], [initialReputationPoints - userArray[playerChance].getReputationPts()]);
         ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(), questionId, initialReputationPoints - userArray[playerChance].getReputationPts(),userArray[playerChance].getReputationPts(), 1, startTime, "LuckyUnluckyRptPointsDecrease");
          console.log("Rpt points 1");
     }
     else if(initialReputationPoints < userArray[playerChance].getReputationPts())
     {
         header = ubsApp.getTranslation("goodLuckResultHeader");
-        message= ubsApp.formatMessage(ubsApp.translation["goodLuckResultPopUpRepPt"], [userArray[playerChance].getReputationPts() - initialReputationPoints]);
+        message= ubsApp.formatMessageLuck(ubsApp.translation["goodLuckResultPopUpRepPt"], [userArray[playerChance].getReputationPts() - initialReputationPoints]);
         ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(), questionId, userArray[playerChance].getReputationPts() - initialReputationPoints,userArray[playerChance].getReputationPts(), 1, startTime, "LuckyUnluckyRptPointsIncrease");
         console.log("Rpt points 2");
     }
@@ -330,14 +330,14 @@ ubsApp.payOrGain=function(pageName,questionId){
     if(isNegativeInvVal || initialInventory > userArray[playerChance].getInventoryScore())
     {
         header = ubsApp.getTranslation("badLuckResultHeader");
-        message= ubsApp.formatMessage(ubsApp.translation["badLuckResultPopUpInv"],initialInventory - userArray[playerChance].getInventoryScore());
+        message= ubsApp.formatMessageLuck(ubsApp.translation["badLuckResultPopUpInv"],initialInventory - userArray[playerChance].getInventoryScore());
         ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(), questionId, initialInventory - userArray[playerChance].getInventoryScore(),userArray[playerChance].getInventoryScore(), 1, startTime, "LuckyUnluckyInventoryDecrease");
         console.log("inventory points 1");
     }
     else if(initialInventory < userArray[playerChance].getInventoryScore())
     {
         header = ubsApp.getTranslation("goodLuckResultHeader");
-        message= ubsApp.formatMessage(ubsApp.translation["goodLuckResultPopUpInv"], [userArray[playerChance].getInventoryScore() - initialInventory]);
+        message= ubsApp.formatMessageLuck(ubsApp.translation["goodLuckResultPopUpInv"], [userArray[playerChance].getInventoryScore() - initialInventory]);
         ubsApp.updateScoreInDB(userArray[playerChance].getplayerStudentId(), questionId, userArray[playerChance].getInventoryScore() - initialInventory,userArray[playerChance].getInventoryScore(), 1, startTime, "LuckyUnluckyInventoryIncrease");
         console.log("inventory points 1");
     }
