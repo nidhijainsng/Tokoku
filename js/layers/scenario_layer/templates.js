@@ -499,7 +499,7 @@ ubsApp.leaderBoardTemplate=
 '           {{SUBMIT}}'+
 ' </div>' +
 '           <div class="helpBtn" style="padding: 6%;" onclick="ubsApp.startHelp(\'{{helpPageName}}\')"></div>'+
-'<div id="salesSubmitButton" class="submitButton" style="cursor:pointer;color: black;" onclick="ubsApp.startHelp(\'salesAnswerHelp\');">           GUIDELINES </div>' +
+'<div id="salesSubmitButton" class="submitButton" style="cursor:pointer;color: black;" onclick="ubsApp.startHelp(\'salesAnswerHelp\');">           Panduan </div>' +
 '              </div>'+
 
 //'       <img class="butt" id="help" onclick="ubsApp.startHelp(\'{{helpPageName}}\')" src="images/help.png" />'+
