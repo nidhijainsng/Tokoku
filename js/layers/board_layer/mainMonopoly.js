@@ -976,7 +976,7 @@ ubsApp.closeGame = function() {
     if(ubsApp.isAndroidEnabled) {
         Android.endSession();
     }else{
-      window.location.href = "../prathamubs/thank_you.html";
+      window.location.href = "../Tokoku-master/thank_you.html";
     }
 
 }
