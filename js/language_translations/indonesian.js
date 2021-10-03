@@ -498,7 +498,7 @@ ubsApp.translation={
         "paymentQuestion6":"Banyak pelanggan menginginkan opsi pembayaran digital dan Anda perlu mendaftar dengan penyedia dompet digital. Biaya pendaftaran sebesar Rp 100 ribu",
         "paymentQuestion7":"Perlu mencari bantuan tambahan untuk toko dengan biaya Rp 200 ribu",
         "paymentQuestion8":"Anda harus menghabiskan untuk mencetak dan mendistribusikan pamflet untuk mempromosikan penjualan yang akan datang. Rp 200 ribu",
-        "paymentQuestion9":"Bayar kontribusi Anda untuk menanam lebih banyak tress di locatlity. Rp 100 ribu",
+        "paymentQuestion9":"Bayar kontribusi Anda untuk menanam lebih banyak pohon di lingkungan. Rp 100 ribu",
         "paymentQuestion10":"Karena peningkatan penggunaan lahan parkir, pemilik rumah telah meminta Rp 1 juta sebagai uang muka tambahan untuk sewa toko",
         "paymentQuestion11":"Terdapat hama kecoak di toko melalui salah satu barang pengiriman. Biaya pemusnahan hama seharga Rp 150 ribu",
         "paymentQuestion12":"Toko Anda telah membuang sampah secara tidak semestinya. Dikenakan denda sebesar Rp 200 ribu",
