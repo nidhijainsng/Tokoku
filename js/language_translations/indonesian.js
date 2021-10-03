@@ -597,7 +597,7 @@ ubsApp.translation={
       "QuizQuestion58" : "Kewajiban pelaporan pajak yg berkahir pada 31 Des harus disampaikan kapan (untuk perorangan)?",
       "QuizQuestion59" : "Anda perlu melapor pajak penghasilan jika",
       "QuizQuestion60" : "Apakah Pajak Bumi Bangunan?",
-      "QuizQuestion61" : "Berapa besar Pajak Bumi dan Bangunan yg harus dibayar?",
+      "QuizQuestion61" : "Penentu besarnya Pajak Bumi dan Bangunan yang harus dibayar?",
       "QuizQuestion62" : "Jika seseorang menawarkan Anda kesempatan untuk menghasilkan banyak uang, ada juga kemungkinan Anda akan kehilangan banyak uang.",
       "QuizQuestion63" : "Misalkan Anda memasukkan Rp 1 juta ke dalam rekening tabungan dengan jaminan suku bunga sederhana 10% per tahun. Berapa banyak yang akan ada pada akhir tahun pertama-sebelum dipotong pajak?",
       "QuizQuestion64" : "Misalkan Anda memasukkan Rp 1 juta ke dalam rekening tabungan dengan jaminan suku bunga majemuk 10% per tahun. Berapa banyak yang akan ada pada akhir tahun pertama-sebelum dipotong pajak?",
