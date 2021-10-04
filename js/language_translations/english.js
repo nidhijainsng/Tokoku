@@ -497,7 +497,7 @@ ubsApp.translation={
         "paymentQuestion6":"Many customers want digital payment options and you need to enrol with a digital wallet provider. Enrolment fee is Rp 500",
         "paymentQuestion7":"Need to find additional help for the shop a the cost of Rp 1000",
         "paymentQuestion8":"You have to spend on printing and distributing pamphlets to promote an upcoming sale. Rp 1000",
-        "paymentQuestion9":"Pay your contribution for planting more tress in the locatlity. Rp 500",
+        "paymentQuestion9":"Pay your contribution for planting more trees in the locality. Rp 500",
         "paymentQuestion10":"Owing to increased parking space usage, the landlord has asked for Rp 5000 as additional advance for the shop rental.",
         "paymentQuestion11":"Cockroaches infested the shop via one of the goods consignment. Exterminate for Rp 800",
         "paymentQuestion12":"Your shop has been disposing garbage improperly. Hence corporation has charged a fine of Rp 1000",
