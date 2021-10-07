@@ -145,7 +145,7 @@ tr.strikeout td:before {
     content: "";
     top: 50%;
     left: 0;
-    border-top: .1vw solid #ff0000;
+    border-top: .2vw solid #ff0000;
     width: 100%;
 }
 
