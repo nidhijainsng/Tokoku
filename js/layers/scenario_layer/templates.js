@@ -450,7 +450,7 @@ ubsApp.leaderBoardTemplate=
 '                   </tbody>'+
 '                 </table>'+
 '               </div>'+
-'           </div>'+
+'  <font size="2%"><i>* The striked out item is out of stock</font> </i>        </div>'+
 '           </div>'+
 '       </div>'+
 '       </div>'+
