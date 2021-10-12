@@ -127,11 +127,14 @@ monopoly.origpages = {
     {
         "templateId":1,
         "templateType":"static",
-        "src": "<div style=\"margin-bottom:2%;\">{{noOfWeeks}}<input type=\"radio\" name=\"noOfWeeks\" value=\"6\">6 <input type=\"radio\" name=\"noOfWeeks\" value=12 checked=\"\">12</div><div id=\"enterOnlinePlayers\">{{enterOfflinePlayers}} <select id=\"num_online_players\"   onchange=\"monopoly.initOnlinePlayers()\"> "+
+        /*Original with multiplayer*/ /*"src": "<div style=\"margin-bottom:2%;\">{{noOfWeeks}}<input type=\"radio\" name=\"noOfWeeks\" value=\"6\">6 <input type=\"radio\" name=\"noOfWeeks\" value=12 checked=\"\">12</div><div id=\"enterOnlinePlayers\">{{enterOfflinePlayers}} <select id=\"num_online_players\"   onchange=\"monopoly.initOnlinePlayers()\"> "+
                                                                                             "<option value=\"1\"><span  id=\"player1\">1</span></option> "+
                                                                                             "<option value=\"2\"><span id=\"player2\">2</span></option> "+
                                                                                             "<option value=\"3\"><span id=\"player3\">3</span></option> "+
                                                                                             "<option value=\"4\"><span id=\"player4\">4</span></option> "+
+                                                                                        "</select> </div>" ,*/
+        "src": "<div style=\"margin-bottom:2%;\">{{noOfWeeks}}<input type=\"radio\" name=\"noOfWeeks\" value=\"6\">6 <input type=\"radio\" name=\"noOfWeeks\" value=12 checked=\"\">12</div><div id=\"enterOnlinePlayers\">{{enterOfflinePlayers}} <select id=\"num_online_players\"   onchange=\"monopoly.initOnlinePlayers()\"> "+
+                                                                                            "<option value=\"1\"><span  id=\"player1\">1</span></option> "+
                                                                                         "</select> </div>" ,
         "style": "text-align:center;    margin-top: 2%;",
     },
@@ -151,7 +154,8 @@ monopoly.origpages = {
            "templateId":1,
            "templateType":"static",
            "style":" width:90%;display: flex;flex-direction: row;justify-content: space-around;float:right; ",
-           "src":"<button onclick=\"monopoly.renderPageforBoard(monopoly.pages.WelcomePage);\" style=\"border-radius:5px;border:0;    background-image: url(images/backbutton.png);background-size: 100% 100%;background-color: transparent;padding: 2% 4%;    color: red;\" > </button> <button onclick=\"monopoly.openAddPlayer();\" style=\" background: url('images/button long.png'); padding: 14px;    background-size: 100% 100%;    background-color: transparent;    border: none;    cursor: pointer;   color: red;\" > {{ADD_PLAYER}}</button> <button onclick=\"monopoly.storePlayerDetails()\" style=\"border-radius:5px;border:0;    background-image: url(images/nextbutton.png);background-size: 100% 100%;background-color: transparent;padding: 2% 4%;;    color: green;\" id=\"storePlayerDetailsButton\"> </button>",
+           /*Original with Multiplayer*/ /*"src":"<button onclick=\"monopoly.renderPageforBoard(monopoly.pages.WelcomePage);\" style=\"border-radius:5px;border:0;    background-image: url(images/backbutton.png);background-size: 100% 100%;background-color: transparent;padding: 2% 4%;    color: red;\" > </button> <button onclick=\"monopoly.openAddPlayer();\" style=\" background: url('images/button long.png'); padding: 14px;    background-size: 100% 100%;    background-color: transparent;    border: none;    cursor: pointer;   color: red;\" > {{ADD_PLAYER}}</button> <button onclick=\"monopoly.storePlayerDetails()\" style=\"border-radius:5px;border:0;    background-image: url(images/nextbutton.png);background-size: 100% 100%;background-color: transparent;padding: 2% 4%;;    color: green;\" id=\"storePlayerDetailsButton\"> </button>",*/
+           "src":"<button onclick=\"monopoly.renderPageforBoard(monopoly.pages.WelcomePage);\" style=\"border-radius:5px;border:0;    background-image: url(images/backbutton.png);background-size: 100% 100%;background-color: transparent;padding: 2% 4%;    color: red;\" > </button> <button onclick=\"monopoly.storePlayerDetails()\" style=\"border-radius:5px;border:0;    background-image: url(images/nextbutton.png);background-size: 100% 100%;background-color: transparent;padding: 2% 4%;;    color: green;\" id=\"storePlayerDetailsButton\"> </button>",
        },
     /*{
         "templateId":1,
