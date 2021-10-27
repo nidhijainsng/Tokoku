@@ -371,7 +371,7 @@ ubsApp.helpConfig={
                     "id":"helpContentVideo",
                     "style":"position:absolute;top:1%;left:2%;background-repeat: no-repeat;color:white;height:100vh;width:97vw;",
                     "src":"<div style=\"width:95%;height:95%\"><video id=\"helpVideo\" width=\"100%\" height=\"100%\" controls autoplay loop muted playsinline> <source src={{introVideo}} type=\"video/mp4\"></video> </div>",
-                    "srcOnline":"<div style=\"width:95%;height:95%\"><video id=\"helpVideo\" width=\"100%\" height=\"100%\" controls autoplay loop muted playsinline> <source src={{introVideoOnline}} type=\"video/mp4\"></video> </div>"
+                    "srcOnline":"<div style=\"width:95%;height:95%\"><video id=\"helpVideo\" width=\"100%\" height=\"100%\" controls autoplay loop muted playsinline> <source src={{introVideo}} type=\"video/mp4\"></video> </div>"
                 },
                 {
                     "templateId":4,
