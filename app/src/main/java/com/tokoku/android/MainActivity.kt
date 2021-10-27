@@ -50,6 +50,7 @@ class MainActivity : AppCompatActivity() {
         webView?.settings?.javaScriptEnabled = true
         webView?.settings?.mediaPlaybackRequiresUserGesture = true
         webView?.settings?.domStorageEnabled = true
+        WebView.setWebContentsDebuggingEnabled(true);
 
         webView?.loadUrl("file:///android_asset/www/tokoku/index.html");
     }
