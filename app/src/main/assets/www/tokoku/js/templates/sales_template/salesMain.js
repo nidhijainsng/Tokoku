@@ -103,7 +103,7 @@ ubsApp.validateAmount = function(showPopup = true) {
     	   if(showPopup) {
     	     ubsApp.raiseAudioEvent(salesSubmitButton, 'wrongAnswer');
                 	   ubsApp.openPopup({
-                           "message" : "Please calculate amount for all items. Do you need Help?",//ubsApp.getTranslation("quizLimitReachedForWeek"),
+                           "message" : "Harap hitung jumlah untuk semua barang. Apa kamu perlu bantuan?",//ubsApp.getTranslation("quizLimitReachedForWeek"),
                           "header" : ubsApp.getTranslation("ERROR"),
                           "headerStyle" : "text-align: center;  color: red; font-weight: 700;",
                           "imageUrl" : "",
