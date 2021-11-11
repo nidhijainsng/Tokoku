@@ -39,7 +39,7 @@ monopoly.origpages = {
         "templateId":1,
         "templateType":"static",
         "style": "padding:8px;text-align:center; color:white;border-radius:5px;position:absolute;top:0%;width:100%;left:0%;height:6%;",
-        "src":"<div id=\"splash\"> <img src=\"images/splash_screen.jpg\" style=\"width: 100%; height: 100%\"></img> </div>"
+        "src":"<div id=\"splash\"> <img src=\"images/Tokoku-approved-Logo.png\" style=\"width: 100%; height: 100%\"></img> </div>"
         },
         {
             "templateType":"audioTemplate",
