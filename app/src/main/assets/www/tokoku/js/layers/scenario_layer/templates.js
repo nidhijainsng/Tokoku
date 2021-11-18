@@ -450,7 +450,7 @@ ubsApp.leaderBoardTemplate=
 '                   </tbody>'+
 '                 </table>'+
 '               </div>'+
-'  <font size="2%"><i>* The striked out item is out of stock</font> </i>        </div>'+
+'  <font size="2%"><i>* Jika persedian barang tulisannya dicoret menendakan persedian sudah habis</font> </i>        </div>'+
 '           </div>'+
 '       </div>'+
 '       </div>'+
