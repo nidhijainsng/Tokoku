@@ -447,10 +447,13 @@ ubsApp.leaderBoardTemplate=
 '                       <td><b>{{Total}}</b></td>'+
 '                       <td><input type="number"  id="receiptTotal" class="amount" ></td>    '+
 '                     </tr>'+
+'                     <tr>'+
+'                       <td colspan="5"><font size="1.5%"><i>* The striked out item is out of stock</font> </i> </td>'+
+'                     </tr>'+
 '                   </tbody>'+
 '                 </table>'+
 '               </div>'+
-'  <font size="2%"><i>* The striked out item is out of stock</font> </i>        </div>'+
+'         </div>'+
 '           </div>'+
 '       </div>'+
 '       </div>'+
