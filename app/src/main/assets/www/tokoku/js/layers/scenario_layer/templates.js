@@ -448,7 +448,7 @@ ubsApp.leaderBoardTemplate=
 '                       <td><input type="number"  id="receiptTotal" class="amount" ></td>    '+
 '                     </tr>'+
 '                     <tr>'+
-'                       <td colspan="5"><font size="1.5%"><i>* The striked out item is out of stock</font> </i> </td>'+
+'                       <td colspan="5"><font size="1.5%"><i>* Jika persedian barang tulisannya dicoret menendakan persedian sudah habis</font> </i> </td>'+
 '                     </tr>'+
 '                   </tbody>'+
 '                 </table>'+
