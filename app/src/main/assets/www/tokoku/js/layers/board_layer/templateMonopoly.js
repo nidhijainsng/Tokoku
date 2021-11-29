@@ -79,7 +79,7 @@ monopoly.boardTemplate='<div class="responsive">'+
                     '</div>'+
 
                     '<div class="centerDiceRow">'+
-                        '<div style="height: 9vw;width: 15vw;background-image: url(images/logo_{{language}}.png);background-size: 100% 100%;"></div>'+
+                        '<div style="height: 9vw;width: 15vw;background-image: url(images/Tokoku-approved-Logo.png);background-size: 100% 100%;"></div>'+
                     '</div>'+
 
                     '<div class="centerDiceRow">'+monopoly.rollingDiceTemplate+'</div>'+
