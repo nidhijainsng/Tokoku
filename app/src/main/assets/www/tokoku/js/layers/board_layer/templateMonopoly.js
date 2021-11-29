@@ -258,7 +258,7 @@ monopoly.staticTemplate ='<div class="{{width}}" style="{{style}}"   onclick="mo
 ' </div>'+
 '<div id={{audioId}}></div>';
 
-monopoly.formTemplate='{{#if nameTitle}}<br><div class="title" >{{nameTitle}}:</span> '+
+monopoly.formTemplate='{{#if nameTitle}}<br><div class="title" >Pemain:</span> '+
 '{{#if isDropdown}}'+
     '<select id="{{nameId}}" >'+
         ' {{#each studentArray}}'+

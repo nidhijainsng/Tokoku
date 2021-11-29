@@ -470,7 +470,7 @@ monopoly.initPlayers=function(){
 
 monopoly.initOnlinePlayers=function(){
     document.getElementById("take_input").innerHTML = "";
-    $("#enterOnlinePlayers").show();
+    $("#enterOnlinePlayers").hide();
     if(ubsApp.studentArray.length == 0) {
         $("#enterOnlinePlayers").hide();
         let message = ubsApp.getTranslation("ADD_PLAYER_TO_PLAY");
