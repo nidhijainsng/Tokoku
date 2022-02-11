@@ -29,7 +29,7 @@ ubsApp.translation={
         "PLAYER" : "PLAYER",
 
 
-    //This is where the new addition ended
+    //This is where the new addition end
 
         "enterPlayers":"Enter the number of Players",
         "enterOfflinePlayers":"NO. OF PLAYERS",
