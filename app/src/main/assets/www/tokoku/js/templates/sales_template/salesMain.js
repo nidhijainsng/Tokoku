@@ -136,7 +136,7 @@ ubsApp.validateAmount = function(showPopup = true) {
     if(!$("#receiptTotal").val()||sum_of_individual_items!=parseFloat($("#receiptTotal").val())) {
         if(showPopup) {
              ubsApp.openPopup({
-                                   "message" : "Harup hitung jumlah untuk semua barang. Apa kamu perlu bantuan?",//ubsApp.getTranslation("quizLimitReachedForWeek"),
+                                   "message" : "Harap hitung jumlah untuk semua barang. Apa kamu perlu bantuan?",//ubsApp.getTranslation("quizLimitReachedForWeek"),
                                   "header" : ubsApp.getTranslation("ERROR"),
                                   "headerStyle" : "text-align: center;  color: red; font-weight: 700;",
                                   "imageUrl" : "",
