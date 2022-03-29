@@ -54,7 +54,7 @@ ubsApp.translation={
         "sale":"JUAL",
         "payment":"BAYAR",
         "decision":"KEPUTUSAN",
-        "luck":"LUCK",
+        "luck":"BERUNTUNG",
 
 
         "bankBalanceTitle":"SALDO BANK",
@@ -290,7 +290,7 @@ ubsApp.translation={
         "decisionQ29O1":"Menaikan harga Kacang Polong/Lentil 50% dan mendapatkan keuntungan Rp. 200 ribu (Kehilangan Nilai Reputasi)",
         "decisionQ29O2":"Tidak menaikan harga (Mendapat Nilai Reputasi)",
 
-        "decisionQ30":"Akan ada acara setempat/bazaar. Beli persediaan makanan extra seharga Rp. 1 juta dan berharap dpt keuntungan extra (10 - 50%)",
+        "decisionQ30":"Akan ada pasar malam. Beli persediaan makanan extra seharga Rp. 1 juta dan berharap dpt keuntungan tambahan (10 - 50%)",
         "decisionQ30O1":"Beli persediaan makanan extra",
         "decisionQ30O2":"Tidak membeli persediaan makanan extra",
 
@@ -1379,7 +1379,7 @@ ubsApp.translation={
         "Sales86DiscountText": "Gratis 100g Mentega setiap pembelian 100g dan gratis 1 pak roti setiap pembelian 4 pak roti",
         "Sales87DiscountText": "Gratis 100g Kacang Almond setiap pembelian 200g",
         "Sales89DiscountText": "Gratis 100g kacang mete setiap pembelian 200 g",
-        "Sales90DiscountText": "Kakao combo 2 pak diskon 2020%",
+        "Sales90DiscountText": "Kakao combo 2 pak diskon 20%",
         "Sales92DiscountText": "Diskon 5% Kacang Almond dan 10% Kacang Mete",
         "Sales93DiscountText": "Kacang Mete diskon 5%. Ketumbar - gratis 500g setiap pembelian 500g",
         "Sales94DiscountText": "Beras diskon 20%",
