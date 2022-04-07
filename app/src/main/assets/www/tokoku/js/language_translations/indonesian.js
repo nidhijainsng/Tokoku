@@ -49,7 +49,7 @@ ubsApp.translation={
 
     // Monopoly main board
         // board footer caption
-        "start":"MINGGU BERIKUTNYA",
+        "start":"Mulai",
         "purchase":"BELI",
         "sale":"JUAL",
         "payment":"BAYAR",
