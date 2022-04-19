@@ -290,13 +290,13 @@ ubsApp.translation={
         "decisionQ29O1":"Menaikan harga Kacang Polong/Lentil 50% dan mendapatkan keuntungan Rp. 200 ribu (Kehilangan Nilai Reputasi)",
         "decisionQ29O2":"Tidak menaikan harga (Mendapat Nilai Reputasi)",
 
-        "decisionQ30":"Akan ada pasar malam. Beli persediaan makanan extra seharga Rp. 1 juta dan berharap dpt keuntungan tambahan (10 - 50%)",
-        "decisionQ30O1":"Beli persediaan makanan extra",
-        "decisionQ30O2":"Tidak membeli persediaan makanan extra",
+        "decisionQ30":"Akan ada pasar malam. Beli persediaan makanan tambahan seharga Rp. 1 juta dan berharap dpt keuntungan tambahan (10 - 50%)",
+        "decisionQ30O1":"Beli persediaan makanan tambahan",
+        "decisionQ30O2":"Tidak membeli persediaan makanan tambahan",
 
         "decisionQ31":"Penjualan meningkat, ada tambahan dana di saldo bank",
         "decisionQ31O1":"Dana tambahan diinvestasikan dalam bentuk Deposito di bank dengan keuntungan bunga 6% (Mendapat Nilai Reputasi - Tinggi)",
-        "decisionQ31O2":"Berikan bonus extra kepada karyawan dan ambil extra gaji untuk diri sendiri (Mendapat Nilai Reputasi - Rendah)",
+        "decisionQ31O2":"Berikan bonus tambahan kepada karyawan dan ambil tambahan gaji untuk diri sendiri (Mendapat Nilai Reputasi - Rendah)",
         "decisionQ31O3":"Tidak melakukan apa-apa, seandainya perlu dana nantinay (Kehilangan Nilai Reputasi)",
 
         "decisionQ32":"Bibi memberikan bisnis, untung Rp. 200 juta",
