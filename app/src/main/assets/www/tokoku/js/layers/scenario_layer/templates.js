@@ -426,7 +426,7 @@ ubsApp.leaderBoardTemplate=
 '                   </thead>'+
 '                   <tbody>'+
 '                       {{#each order}}'+
-'                     <tr class = "row{{no}} {{#if exclude}}strikeout{{/if}}" data-toggle="tooltip" data-placement="bottom" {{#if exclude}}title="This item is not available in your Inventory"{{/if}} ">'+
+'                     <tr class = "row{{no}} {{#if exclude}}decorate{{/if}}" data-toggle="tooltip" data-placement="bottom" {{#if exclude}}title="This item is not available in your Inventory"{{/if}} ">'+
 '                       <td  class="items">{{no}}</td>'+
 '                       <td  class="items">{{item}}</td>'+
 '                       <td  class="items" id="itemPrice{{no}}">{{amount}}</td>'+
