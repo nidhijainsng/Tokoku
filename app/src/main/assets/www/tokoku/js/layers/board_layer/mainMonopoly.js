@@ -680,7 +680,7 @@ monopoly.chooseLanguage=function(language){
     	 ubsApp.translateScenarios();
     	 ubsApp.closePopup();
     	 ubsApp.startHelp("introHelp");
-    	 monopoly.pages.WelcomePage[1].src="<img src=\"images/" + languageSelected +"/logo.png\" style=\"height: 39vh;top:40%;margin: 6%;margin-left: 30%;\"> </img>";
+    	 monopoly.pages.WelcomePage[1].src="<img src=\"images/" + languageSelected +"/logo.png\" style=\"height: 39vh;top:40%;margin: 6%;margin-left: 38%;\"> </img>";
 
 
       }
