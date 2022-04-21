@@ -48,10 +48,10 @@ monopoly.boardTemplate='<div class="responsive">'+
                 '<div class="square1">'+
                     '<div style="height: 80%;background-image: url(\'{{backgroundImage}}\');background-size: 100% 100%;"></div>'+
                     '<div class="squareFooter{{footerColor}}">{{footerText}}</div>'+
-                    '<div class="firstLine firstLine-top rotation2" id={{id}}>'+'{{title}}'+'<br>'+
+                    '<div class="firstLine firstLine-top rotation2" id={{id}}>'+'{{title}}'+
                         '{{#if start}}'+
                             '{{#each players}}'+
-                              '<span id="{{playerId}}"><img  src="images/{{tokenColor}}.png"> </span>&nbsp;'+
+                              '<span id="{{playerId}}"><img  src="images/{{tokenColor}}.png" style="height:60px"> </span>&nbsp;'+
                               '{{/each}}'+
                             '{{/if}}'+
                     '</div>'+
