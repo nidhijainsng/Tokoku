@@ -1,3 +1,5 @@
 ## Table of contents
 
-- [About Tokoku] (#about) 
+- [About Tokoku] (#About) 
+
+## <a name="About"/>About
