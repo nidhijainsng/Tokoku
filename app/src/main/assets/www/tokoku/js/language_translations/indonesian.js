@@ -290,9 +290,11 @@ ubsApp.translation={
         "decisionQ29O1":"Menaikan harga Kacang Polong/Lentil 50% dan mendapatkan keuntungan Rp. 200 ribu (Kehilangan Nilai Reputasi)",
         "decisionQ29O2":"Tidak menaikan harga (Mendapat Nilai Reputasi)",
 
+
         "decisionQ30":"Akan ada pasar malam. Beli persediaan makanan tambahan seharga Rp. 1 juta dan berharap dpt keuntungan tambahan (10 - 50%)",
         "decisionQ30O1":"Beli persediaan makanan tambahan",
         "decisionQ30O2":"Tidak membeli persediaan makanan tambahan",
+
 
         "decisionQ31":"Penjualan meningkat, ada tambahan dana di saldo bank",
         "decisionQ31O1":"Dana tambahan diinvestasikan dalam bentuk Deposito di bank dengan keuntungan bunga 6% (Mendapat Nilai Reputasi - Tinggi)",
@@ -456,6 +458,7 @@ ubsApp.translation={
         "redeemAdvantageCardHeader":"AMBIL KEUNTUNGAN KARTU",
         "redeemAdvantageCardMessage":"1 Keuntungan kartu diambil! Kamu memiliki sisa {0} Keuntungan Kartu.",
 
+
         "badPaymentResultPopUpBankBalance":"Rp {0} didebit dari akun kamu. ",
         "badPaymentResultPopUpCash":"Rp {0} dari saldo kas akun kamu. ",
         "badPaymentResultPopUpRepPt":"{0} Nilai Reputasi yang didebit dari akun kamu. ",
@@ -465,6 +468,7 @@ ubsApp.translation={
         "goodPaymentResultPopUpCash":"Rp {0} dikreditkan ke saldo kas akun kamu. ",
         "goodPaymentResultPopUpRepPt":"{0} Nilai Reputasi yang dikreditkan ke akun kamu. ",
         "goodPaymentResultPopUpInv":"{0} % Persediaan dikredit dari akun kamu. ", // percentage
+
         "paymentResultHeader":"HASIL PEMBAYARAN",
 
         "convertTitle":"KONVERSI",
@@ -480,7 +484,9 @@ ubsApp.translation={
         "conversionTitle":"15 POINTS = 1 Kartu",
         "checkTitle":"CHECK",
         "enterInMultipleOf15":"Silakan masukkan angka dalam kelipatan 15.",
+
         "Kamu telah memasukkan lebih banyak poin daripada yang kamu miliki":"Kamu telah memasukkan lebih banyak poin daripada yang kamu miliki.",
+
         "validReputationPts":"Silakan masukkan titik reputasi yang valid setidaknya 15 dan kurang dari titik Reputasi saat ini.",
 
 
@@ -495,6 +501,7 @@ ubsApp.translation={
         "paymentQuestion3":"Kulkas telah rusak karena penggunaan yang berlebihan musim panas ini. Biaya untuk memperbaiki adalah Rp 230 ribu.",
         "paymentQuestion4":"Pintu masuk toko perlu renovasi. Rp 150 ribu",
         "paymentQuestion5":"Kantor Pajak telah memungut denda Rp 300 ribu untuk pengajuan yang salah tahun lalu.",
+
         "paymentQuestion6":"Banyak pelanggan menginginkan opsi pembayaran digital dan kamu perlu mendaftar dengan penyedia dompet digital. Biaya pendaftaran sebesar Rp 100 ribu",
         "paymentQuestion7":"Perlu mencari bantuan tambahan untuk toko dengan biaya Rp 200 ribu",
         "paymentQuestion8":"Kamu harus menghabiskan untuk mencetak dan mendistribusikan pamflet untuk mempromosikan penjualan yang akan datang. Rp 200 ribu",
@@ -507,6 +514,7 @@ ubsApp.translation={
         "paymentQuestion15":"Pintu rana toko berkarat dan perlu penggantian. Rp 230 rib",
         "paymentQuestion16":"Van pengiriman toko mogok dan membutuhkan perbaikan. Rp 425 ribu",
         "pembayaranQuestion17":"Karena peraturan pemerintah baru-baru ini, kamu perlu mendapatkan banyak tas jinjing non-plastik. Rp 2 juta",
+
         "paymentQuestion18":"Kabinet tampilan tidak sengaja pecah dan perlu diperbaiki. Rp 250 ribu",
         "paymentQuestion19":"Hujan baru-baru ini telah menyebabkan kerusakan pada atap toko. Perlu diperbaiki. Biaya Rp 150 ribu",
         "paymentQuestion20":"Pemasangan kamera CCTV. Harganya Rp 1 juta.",
@@ -524,6 +532,7 @@ ubsApp.translation={
         
         "instructionHeader" : "INSTRUKSI",
         "instructionsMessage" : "Instruksi Permainan "+
+
 						        "Jika kamu baru dalam permainan, disarankan untuk mengikuti Misi Panduan yang ditentukan oleh kami"+
 						        "Game ini akan dimainkan dengan bantuan dadu." +
 						        "Dadu akan memberi kamu satu angka acak antara 1 hingga 6 dan kemudian kursor akan pindah ke papan peringkat." +
@@ -531,6 +540,7 @@ ubsApp.translation={
 						        "Ada banyak template seperti penjualan / pembelian / keberuntungan / inventaris dan ada banyak skenario berdasarkan template." +
 						        "Baca setiap template dan skenario dengan cermat sebelum memulai permainan." +
 						        "Ketika kamu akan maju, kamu akan mendapatkan / kehilangan poin atau hadiah berdasarkan keputusan dan jawaban Kamu" ,
+
         "INVENTORYVALUE": "NILAI PERSEDIAAN",
         "INVENTORY" : "PERSEDIAAN",
         "decisionResult": "HASIL KEPUTUSAN",
@@ -598,12 +608,14 @@ ubsApp.translation={
       "QuizQuestion59" : "Kamu perlu melapor pajak penghasilan jika",
       "QuizQuestion60" : "Apakah Pajak Bumi Bangunan?",
       "QuizQuestion61" : "Penentu besarnya Pajak Bumi dan Bangunan yang harus dibayar?",
+
       "QuizQuestion62" : "Jika seseorang menawarkan kamu kesempatan untuk menghasilkan banyak uang, ada juga kemungkinan Kamu akan kehilangan banyak uang.",
       "QuizQuestion63" : "Misalkan kamu memasukkan Rp 1 juta ke dalam rekening tabungan dengan jaminan suku bunga sederhana 10% per tahun. Berapa banyak yang akan ada pada akhir tahun pertama-sebelum dipotong pajak?",
       "QuizQuestion64" : "Misalkan kamu memasukkan Rp 1 juta ke dalam rekening tabungan dengan jaminan suku bunga majemuk 10% per tahun. Berapa banyak yang akan ada pada akhir tahun pertama-sebelum dipotong pajak?",
       "QuizQuestion65" : "Jika saat ini kamu memiliki penghasilan Rp 6 juta setahun, dan inflasi adalah 5%, berapa banyak pendapatan yang kamu butuhkan dalam waktu 5 tahun untuk dapat memiliki standar hidup yang sama?",
       "QuizQuestion66" : "Apa yang mempengaruhi jumlah bunga yang akan kamu bayar dengan pinjaman?",
       "QuizQuestion67" : "Apakah kamu menyimpan salinan, baik secara elektronik atau dalam cetakan, dari dokumen keuangan kamu seperti laporan bank, catatan pajak, penerimaan pembelian besar, perjanjian keuangan, dll.",
+
       "QuizQuestion68" : "Jika masing-masing orang berikut memiliki jumlah penghasilan per tahun yang sama, siapa yang akan membayar pajak yang lebih kecil?",
       "QuizQuestion69" : "Setiap warga yang berpenghasilan melebihi PTKP harus membayar pajak",
       "QuizQuestion70" : "Bolehkan membagikan detail KTP kamu jika diminta melalui telpon atau yg lainnya?",
@@ -656,6 +668,7 @@ ubsApp.translation={
       "QuizQuestion117" : "Apakah dana yg telah di tempatkan di Deposito bisa kita tambahkan sebelum jatuh tempo?",
       "QuizQuestion118" : "TD adalah jenis investasi. TD adalah singkatan?",
       "QuizQuestion119" : "Deposito menawarkan",
+
       "QuizQuestion120" : "Mengapa rekening tabungan adalah tempat yang aman untuk menyimpan uang kamu?",
       "QuizQuestion121" : "Apa yang bank berikan kepada kamu sebagai imbalan dari uang yang disimpan di rekening tabungan?",
       "QuizQuestion122" : "Kapan bank membayar bunga?",
@@ -663,14 +676,17 @@ ubsApp.translation={
       "QuizQuestion124" : "Apa yang dilakukan bank dengan uang yang kamu setorkan?",
       "QuizQuestion125" : "Apa yang diterima sebagai bukti identitas yang valid untuk membuka rekening bank tabungan?",
       "QuizQuestion126" : "Dengan cara apa kamu dapat menarik uang dari rekening tabungan kamu?",
+
       "QuizQuestion127" : "Besarnya suku bunga yang diberikan pada rekening tabungan bergantung pada?",
       "QuizQuestion128" : "Apa singkatan KTP",
       "QuizQuestion129" : "Mana yang benar sehubungan dengan rekening giro?",
       "QuizQuestion130" : "Mana yang benar tentang suku bunga dan transaksi dari rekening giro?",
       "QuizQuestion131" : "Bagaimana caranya untuk menambahkan dana ke rekening bank?",
       "QuizQuestion132" : "Dalam rekening atas nama bersama (milik dua nama perorangan dengan kondisi nama 1  DAN nama 2) siapa yang harus menandatangani cek / slip penarikan untuk menarik dana?",
+
       "QuizQuestion133" : "Kartu apa yang kamu gunakan untuk membeli dengan menggunakan dana yang sudah ada di rekening kamu?",
       "QuizQuestion134" : "Kartu apa yang kamu gunakan untuk membeli barang menggunakan dana yang diperoleh secara kredit dari bank kamu?",
+
       "QuizQuestion135" : "Apa kepanjangan dari PMN di bank?",
       "QuizQuestion136" : "Ketika seseorang memasukkan uang ke rekening di bank, ini disebut sebagai",
       "QuizQuestion137" : "Ketika seseorang mengambil uang dari rekening dengan bank, ini disebut",
@@ -686,10 +702,12 @@ ubsApp.translation={
       "QuizQuestion147" : "Apa itu jaminan untuk bank",
       "QuizQuestion148" : "Jika Bank membutuhkan uang, mereka dapat mengambil dari",
       "QuizQuestion149" : "Pada tahun 2000, 1 kg gandum Rp. 4000 dan pada tahun 2018, 1kg adalah Rp 9000. Ini adalah contoh",
+
       "QuizQuestion150" : "Dapatkah kamu mengambil pinjaman dari Bank menggunakan agunan sebagai",
       "QuizQuestion151" : "Jika kamu mendapatkan panggilan telpon yang tidak dapat dipertanggung jawabkan dan meminta kamu untuk memberikan detail akun kamu",
       "QuizQuestion152" : "Mana di antara yang berikut ini adalah bank umum?",
       "QuizQuestion153" : "Apa yang harus kamu lakukan jika kartu kredit dicuri?",
+
       "QuizQuestion154" : "Manakah dari berikut ini yang tidak boleh dibagikan?",
       "QuizQuestion155" : "Alamat yang disebutkan waktu membuka rekening tabungan sesuai dengan alamat apa",
 
@@ -1454,7 +1472,9 @@ ubsApp.translation={
         "OneAndHalf" : "1 1/2",
         "Total" : "Total",
         "guptaJiProfit" : "Keuntungan Pak Abdul",
+
         "yourProfit" : "Keuntungan kamu",
+
         "PLAYAGAIN" : "BERMAIN LAGI",
         "ADD_PLAYER" : "TAMBAHKAN/PERBAHARUI PEMAIN",
         "PLAYER_NAME" : "NAMA PEMAIN",
