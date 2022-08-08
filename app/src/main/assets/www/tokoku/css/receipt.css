@@ -149,6 +149,12 @@ tr.strikeout td:before {
     width: 100%;
 }
 
+tr.decorate{
+	text-decoration: line-through;
+	text-decoration-style: wavy;
+	text-decoration-color: red;
+}
+
 .amount{
 	width:6vw;
 	height:1.6vw;

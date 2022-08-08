@@ -136,7 +136,7 @@ monopoly.origpages = {
         "src": "<div style=\"margin-bottom:2%;\">{{noOfWeeks}}<input type=\"radio\" name=\"noOfWeeks\" value=\"6\">6 <input type=\"radio\" name=\"noOfWeeks\" value=12 checked=\"\">12</div><div id=\"enterOnlinePlayers\">{{enterOfflinePlayers}} <select id=\"num_online_players\"   onchange=\"monopoly.initOnlinePlayers()\"> "+
                                                                                             "<option value=\"1\"><span  id=\"player1\">1</span></option> "+
                                                                                         "</select> </div>" ,
-        "style": "text-align:center;    margin-top: 2%;",
+        "style": "text-align:center;    margin-top: 10%;",
     },
 //    {
 //        "templateId":1,
